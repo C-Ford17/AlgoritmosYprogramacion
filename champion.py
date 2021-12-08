@@ -5,7 +5,7 @@ from fecha import Fecha
 import random
 class Champion:
     equipos ={}
-    FechaNumero=[]
+    FechaNumero={}
 
     def __init__(self):
         if self.equipos:
@@ -26,22 +26,59 @@ class Champion:
             "continente": None,
             "puntos":0
             }}
+
         
-                
+        for i in range(34):
+            self.FechaNumero.update({f"fecha {i+1}":{"fecha":{},"partidos":{}}})
+        for fechas in self.FechaNumero:
+            for i in range (9):
+                self.FechaNumero[fechas]["partidos"].update({f"hora {i+1}":{}})
+        
+    def generarfecha(self):
+        self.fecha= {"dia":None,"mes":None,"año":2022}
+        self.fecha["mes"]= random.randint(1,12)
+        if self.fecha["mes"] in [1,3,5,7,8,10,12]:
+            self.fecha["dia"] = random.randint(1,31)
+        if self.fecha["mes"] in [4,6,9,11]:
+            self.fecha["dia"] = random.randint(1,30)
+        if self.fecha["mes"] == 2:
+            self.fecha["dia"] = random.randint(1,28)
+        
+        return self.fecha
+    
+    def generarhora(self):
+        hora = random.randint(1,5)
+        minuto=random.randint(1,60)
+        self.hora = {"hora":hora,"minuto":minuto}
+        return self.hora
+
     def generarcalendario(self):
-        for i in range(38):
-            dia=random.randint(1,28)
-            mes=random.randint(1,12)
-            año=2022
-            fecha = (dia,mes,año)
-            hora = (random.randint(1,24),random.randint(1,60))
-            self.FechaNumero.append({f"fecha{i+1}":fecha,"hora":hora})
+        for fechas in self.FechaNumero:
+            i=1
+            while i<35:
+                x = self.generarfecha()
+                for fecha in range(0,34):
+                    if self.FechaNumero[fechas]["fecha"] == x:
+                        break
+                    else:
+                        self.FechaNumero[fechas]["fecha"].update(x)
+                        i+=1
+            for i in range(9):
+                if i == 0:
+                    self.FechaNumero[fechas]["partidos"][f"hora {i+1}"].update(self.generarhora())
+                else:
+                    self.FechaNumero[fechas]["partidos"][f"hora {i+1}"]["hora"]=self.FechaNumero[fechas]["partidos"][f"hora {i}"]["hora"]+2
+                    self.FechaNumero[fechas]["partidos"][f"hora {i+1}"]["minuto"]=self.FechaNumero[fechas]["partidos"][f"hora 1"]["minuto"]
+        self.guardarenjson(f=1)
+        
+
+    def guardarenjson(self,f):
+        if f ==1:
             with open('calendario.json','w') as file:
                 json.dump(self.FechaNumero, file, indent=4)
-
-    def guardarenjson(self):
-        with open('data.json','w') as file:
-            json.dump(self.equipos, file, indent=4)
+        if f == None:
+            with open('data.json','w') as file:
+                json.dump(self.equipos, file, indent=4)
 
     def partido(self):
         pass
