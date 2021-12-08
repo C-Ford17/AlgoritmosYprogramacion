@@ -1,12 +1,12 @@
 from jugador import Jugador
 class Equipo:
     jugadores = {}
-    jugadores["jugadores"]=[]
     nombre= str
     apodo = str
     pais = str
     estadio = str
     fechadefundacion = None
+    puntos = int
 
     def __init__(self, nombre, apodo, pais, estadio, fechadefundacion):
         self.nombre= nombre
@@ -14,15 +14,7 @@ class Equipo:
         self.pais = pais
         self.estadio = estadio
         self.fechadefundacion = fechadefundacion
-
-    def agregarjugador(self):
-        jugadornuevo = Jugador.ingresarjugador()
-        self.jugadores["jugadores"].append({
-            "nombre":jugadornuevo.nombre,
-            "pais":jugadornuevo.pais,
-            "estadio":jugadornuevo.estadio,
-            "jugadores":jugadornuevo.jugadores
-            })
+        self.puntos = 0
          
     def crearequipo():
         nombre = input("nombre del equipo: ")

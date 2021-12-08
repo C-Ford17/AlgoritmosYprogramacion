@@ -9,31 +9,43 @@ while True:
     print("C. Registrar un jugador a un equipo")
     print("D. Generar calendario")
     print("E. Registrar goles de partido")
-    print("F. Ver Equipos segun su continente")
+    print("F. Ver Equipos con su continente")
     print("G. Salir")
     opcion =input("Escriba una de las opciones: ")
     Copa = Champion()
     if opcion =="A":
-        Copa.agregarequipo()
-        opcionA=input("desea agregar otro equipo? s/n: ")
-        if opcionA == "s":
+        while True:
             Copa.agregarequipo()
+            opcionA=input("desea agregar otro equipo? s/n: ")
+            if opcionA == "s":
+                True
+            else:
+                break
     if opcion =="B":
-        print(Copa.verequipos("f"))
+        Copa.verequipos("s")
         equipoeliminar=input("ingrese el nombre del equipo que quiere eliminar: ")
         Copa.eliminarequipo(equipoeliminar)
     if opcion =="C":
-        print(Copa.verequipos("f"))
-        equipo=input("ingrese el nombre del equipo en el que quiera al jugador: ")
-        Copa.agregarjugadoraequipo(equipo)
+        while True:
+            Copa.verequipos("s")
+            equipo=input("ingrese el nombre del equipo en el que quiera al jugador: ")
+            Copa.agregarjugadoraequipo(equipo)
+            opcionB=input("desea agregar otro jugador? s/n: ")
+            if opcionB == "s":
+                True
+            else:
+                break
     if opcion =="F":
         Copa.equipoContinente()
-        Copa.verequipos("n")
-        
+        Copa.verequipos(s="n")
+    if opcion =="D":
+        Copa.generarcalendario()
     if opcion =="G":
         break
     else:
-        "Opcion no entrada digite una nuevamente: "
+        "Opcion no encontrada, digite una nuevamente: "
+
+
         
 
 

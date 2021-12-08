@@ -4,6 +4,7 @@ class Jugador:
     posicion = str
     dorsal = int
     fdn = None
+    puntos = int
     
     def __init__(self, nombre, pais, posicion, dorsal, fechadenacimiento):
         self.nombre = nombre
@@ -11,6 +12,7 @@ class Jugador:
         self.posicion = posicion
         self.dorsal = dorsal
         self.fdn = fechadenacimiento
+        self.puntos=0
 
     def ingresarjugador():
         nombre= input("nombre del jugador: ")
