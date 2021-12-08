@@ -1,0 +1,254 @@
+{
+    "Barcelona": {
+        "nombre": "Barcelona",
+        "pais": "Espa\u00f1a",
+        "apodo": "Bar\u00e7a",
+        "estadio": "Camp Nou",
+        "fechaDeFundacion": {
+            "dia": 29,
+            "mes": 11,
+            "a\u00f1o": 1899
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Manchester United": {
+        "nombre": "Manchester United",
+        "pais": "Inglaterra",
+        "apodo": "Los diablos rojos",
+        "estadio": "Old Trafford",
+        "fechaDeFundacion": {
+            "dia": 24,
+            "mes": 4,
+            "a\u00f1o": 1878
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Paris Saint-Germain": {
+        "nombre": "Paris Saint-Germain",
+        "pais": "Francia",
+        "apodo": "PSG",
+        "estadio": "Parque de los Principes",
+        "fechaDeFundacion": {
+            "dia": 12,
+            "mes": 8,
+            "a\u00f1o": 1970
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Manchester City": {
+        "nombre": "Manchester City",
+        "pais": "Reino Unido",
+        "apodo": "Ciudadanos Celestes",
+        "estadio": "Estadio Ciudad de Manchester",
+        "fechaDeFundacion": {
+            "dia": 23,
+            "mes": 11,
+            "a\u00f1o": 1880
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Chelsea": {
+        "nombre": "Chelsea",
+        "pais": "Reino Unido",
+        "apodo": "Los azules",
+        "estadio": "Stamford Bridge",
+        "fechaDeFundacion": {
+            "dia": 10,
+            "mes": 3,
+            "a\u00f1o": 1905
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Real Madrid": {
+        "nombre": "Real Madrid",
+        "pais": "Espa\u00f1a",
+        "apodo": "Blancos",
+        "estadio": "Santiago Bernabeu",
+        "fechaDeFundacion": {
+            "dia": 6,
+            "mes": 3,
+            "a\u00f1o": 1902
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "A. C. Milan": {
+        "nombre": "A. C. Milan",
+        "pais": "Italia",
+        "apodo": "Los rojinegros",
+        "estadio": "Calcistico San Siro",
+        "fechaDeFundacion": {
+            "dia": 16,
+            "mes": 12,
+            "a\u00f1o": 1899
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Liverpool": {
+        "nombre": "Liverpool",
+        "pais": "Inglaterra",
+        "apodo": "Los Rojos",
+        "estadio": "Anfield",
+        "fechaDeFundacion": {
+            "dia": 3,
+            "mes": 6,
+            "a\u00f1o": 1892
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Juventus": {
+        "nombre": "Juventus",
+        "pais": "Italia",
+        "apodo": "La vieja se\u00f1ora",
+        "estadio": "Allianz Stadium",
+        "fechaDeFundacion": {
+            "dia": 1,
+            "mes": 11,
+            "a\u00f1o": 1897
+        },
+        "jugadores": {},
+        "continente": "Europa",
+        "puntos": 0
+    },
+    "Independiente": {
+        "nombre": "Independiente",
+        "pais": "Argentina",
+        "apodo": "Rey de Copas",
+        "estadio": "Libertadores de America-Ricardo Enrique Bochini",
+        "fechaDeFundacion": {
+            "dia": 4,
+            "mes": 8,
+            "a\u00f1o": 1905
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "Boca Juniors": {
+        "nombre": "Boca Juniors",
+        "pais": "Argentina",
+        "apodo": "Azul y Oro",
+        "estadio": "La Bombonera",
+        "fechaDeFundacion": {
+            "dia": 3,
+            "mes": 4,
+            "a\u00f1o": 1905
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "River Plate": {
+        "nombre": "River Plate",
+        "pais": "Argentina",
+        "apodo": "El Millonario",
+        "estadio": "El Monumental",
+        "fechaDeFundacion": {
+            "dia": 25,
+            "mes": 5,
+            "a\u00f1o": 1901
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "Atletico Nacional": {
+        "nombre": "Atletico Nacional",
+        "pais": "Colombia",
+        "apodo": "El Verde Paisa",
+        "estadio": "Atanasio Girardot",
+        "fechaDeFundacion": {
+            "dia": 30,
+            "mes": 4,
+            "a\u00f1o": 1947
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "Sao Pablo": {
+        "nombre": "Sao Pablo",
+        "pais": "Brasil",
+        "apodo": "Tricolor Paulista",
+        "estadio": "Morumbi",
+        "fechaDeFundacion": {
+            "dia": 25,
+            "mes": 1,
+            "a\u00f1o": 1930
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "Union Magdalena": {
+        "nombre": "Union Magdalena",
+        "pais": "Colombia",
+        "apodo": "Los Samarios",
+        "estadio": "Sierra Nevada",
+        "fechaDeFundacion": {
+            "dia": 10,
+            "mes": 3,
+            "a\u00f1o": 1951
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "Olimpia": {
+        "nombre": "Olimpia",
+        "pais": "Paraguay",
+        "apodo": "Decano",
+        "estadio": "Manuel Ferreira",
+        "fechaDeFundacion": {
+            "dia": 25,
+            "mes": 7,
+            "a\u00f1o": 1902
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "Liga Deportiva Universitaria": {
+        "nombre": "Liga Deportiva Universitaria",
+        "pais": "Ecuador",
+        "apodo": "Azucenas",
+        "estadio": "Rodrigo Paz Delgado",
+        "fechaDeFundacion": {
+            "dia": 23,
+            "mes": 10,
+            "a\u00f1o": 1918
+        },
+        "jugadores": {},
+        "continente": "Suramerica",
+        "puntos": 0
+    },
+    "Colo-Colo": {
+        "nombre": "Colo-Colo",
+        "pais": "Chile",
+        "apodo": "Cacique el Colo",
+        "estadio": "Monumental",
+        "fechaDeFundacion": {
+            "dia": 19,
+            "mes": 4,
+            "a\u00f1o": 1925
+        },
+        "jugadores": {},
+        "continente": null,
+        "puntos": 0
+    }
+}

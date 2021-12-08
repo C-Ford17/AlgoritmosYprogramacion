@@ -22,28 +22,33 @@ while True:
             else:
                 break
     if opcion =="B":
-        Copa.verequipos("s")
+        Copa.verequipos(1)
         equipoeliminar=input("ingrese el nombre del equipo que quiere eliminar: ")
         Copa.eliminarequipo(equipoeliminar)
     if opcion =="C":
         while True:
-            Copa.verequipos("s")
+            Copa.verequipos(1)
             equipo=input("ingrese el nombre del equipo en el que quiera al jugador: ")
             Copa.agregarjugadoraequipo(equipo)
-            opcionB=input("desea agregar otro jugador? s/n: ")
-            if opcionB == "s":
-                True
-            else:
+            if Copa.agregarjugadoraequipo(equipo)=="Equipo no encontrado":
                 break
+            else:
+                opcionB=input("desea agregar otro jugador? s/n: ")
+                if opcionB == "s":
+                    True
+                else:
+                    break
     if opcion =="F":
         Copa.equipoContinente()
-        Copa.verequipos(s="n")
+        Copa.verequipos(2)
     if opcion =="D":
         Copa.generarcalendario()
+    if opcion == "E":
+        pass
     if opcion =="G":
         break
     else:
-        "Opcion no encontrada, digite una nuevamente: "
+        print("Opcion no encontrada")
 
 
         
