@@ -27,12 +27,15 @@ class Champion:
             "puntos":0
             }}
 
-        
-        for i in range(34):
-            self.FechaNumero.update({f"fecha {i+1}":{"fecha":{},"partidos":{}}})
-        for fechas in self.FechaNumero:
-            for i in range (9):
-                self.FechaNumero[fechas]["partidos"].update({f"hora {i+1}":{}})
+        if self.FechaNumero:
+            with open('calendario.json') as file:
+                self.FechaNumero=json.load(file)
+        else:
+            for i in range(34):
+                self.FechaNumero.update({f"fecha {i+1}":{"fecha":{},"partidos":{}}})
+            for fechas in self.FechaNumero:
+                for i in range (9):
+                    self.FechaNumero[fechas]["partidos"].update({f"hora {i+1}":{}})
         
     def generarfecha(self):
         self.fecha= {"dia":None,"mes":None,"año":2022}
