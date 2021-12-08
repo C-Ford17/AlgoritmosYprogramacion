@@ -1,0 +1,1532 @@
+{
+    "fecha 1": {
+        "fecha": {
+            "dia": 27,
+            "mes": 1,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 24,
+                "minuto": 55
+            },
+            "hora 2": {
+                "hora": 9,
+                "minuto": 58
+            },
+            "hora 3": {
+                "hora": 5,
+                "minuto": 19
+            },
+            "hora 4": {
+                "hora": 22,
+                "minuto": 44
+            },
+            "hora 5": {
+                "hora": 1,
+                "minuto": 27
+            },
+            "hora 6": {
+                "hora": 15,
+                "minuto": 29
+            },
+            "hora 7": {
+                "hora": 21,
+                "minuto": 59
+            },
+            "hora 8": {
+                "hora": 24,
+                "minuto": 59
+            },
+            "hora 9": {
+                "hora": 21,
+                "minuto": 19
+            }
+        }
+    },
+    "fecha 2": {
+        "fecha": {
+            "dia": 17,
+            "mes": 3,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 21,
+                "minuto": 26
+            },
+            "hora 2": {
+                "hora": 2,
+                "minuto": 38
+            },
+            "hora 3": {
+                "hora": 7,
+                "minuto": 58
+            },
+            "hora 4": {
+                "hora": 13,
+                "minuto": 27
+            },
+            "hora 5": {
+                "hora": 13,
+                "minuto": 58
+            },
+            "hora 6": {
+                "hora": 21,
+                "minuto": 34
+            },
+            "hora 7": {
+                "hora": 10,
+                "minuto": 55
+            },
+            "hora 8": {
+                "hora": 10,
+                "minuto": 26
+            },
+            "hora 9": {
+                "hora": 3,
+                "minuto": 43
+            }
+        }
+    },
+    "fecha 3": {
+        "fecha": {
+            "dia": 7,
+            "mes": 10,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 12,
+                "minuto": 23
+            },
+            "hora 2": {
+                "hora": 10,
+                "minuto": 10
+            },
+            "hora 3": {
+                "hora": 22,
+                "minuto": 59
+            },
+            "hora 4": {
+                "hora": 9,
+                "minuto": 46
+            },
+            "hora 5": {
+                "hora": 22,
+                "minuto": 36
+            },
+            "hora 6": {
+                "hora": 9,
+                "minuto": 31
+            },
+            "hora 7": {
+                "hora": 20,
+                "minuto": 49
+            },
+            "hora 8": {
+                "hora": 12,
+                "minuto": 41
+            },
+            "hora 9": {
+                "hora": 12,
+                "minuto": 59
+            }
+        }
+    },
+    "fecha 4": {
+        "fecha": {
+            "dia": 3,
+            "mes": 8,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 7,
+                "minuto": 25
+            },
+            "hora 2": {
+                "hora": 19,
+                "minuto": 42
+            },
+            "hora 3": {
+                "hora": 15,
+                "minuto": 4
+            },
+            "hora 4": {
+                "hora": 18,
+                "minuto": 6
+            },
+            "hora 5": {
+                "hora": 7,
+                "minuto": 37
+            },
+            "hora 6": {
+                "hora": 24,
+                "minuto": 51
+            },
+            "hora 7": {
+                "hora": 12,
+                "minuto": 12
+            },
+            "hora 8": {
+                "hora": 9,
+                "minuto": 15
+            },
+            "hora 9": {
+                "hora": 3,
+                "minuto": 57
+            }
+        }
+    },
+    "fecha 5": {
+        "fecha": {
+            "dia": 15,
+            "mes": 4,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 7,
+                "minuto": 38
+            },
+            "hora 2": {
+                "hora": 21,
+                "minuto": 37
+            },
+            "hora 3": {
+                "hora": 11,
+                "minuto": 11
+            },
+            "hora 4": {
+                "hora": 23,
+                "minuto": 11
+            },
+            "hora 5": {
+                "hora": 16,
+                "minuto": 29
+            },
+            "hora 6": {
+                "hora": 20,
+                "minuto": 56
+            },
+            "hora 7": {
+                "hora": 5,
+                "minuto": 59
+            },
+            "hora 8": {
+                "hora": 1,
+                "minuto": 55
+            },
+            "hora 9": {
+                "hora": 21,
+                "minuto": 48
+            }
+        }
+    },
+    "fecha 6": {
+        "fecha": {
+            "dia": 19,
+            "mes": 10,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 21,
+                "minuto": 3
+            },
+            "hora 2": {
+                "hora": 24,
+                "minuto": 35
+            },
+            "hora 3": {
+                "hora": 8,
+                "minuto": 19
+            },
+            "hora 4": {
+                "hora": 4,
+                "minuto": 50
+            },
+            "hora 5": {
+                "hora": 3,
+                "minuto": 29
+            },
+            "hora 6": {
+                "hora": 8,
+                "minuto": 14
+            },
+            "hora 7": {
+                "hora": 21,
+                "minuto": 47
+            },
+            "hora 8": {
+                "hora": 15,
+                "minuto": 51
+            },
+            "hora 9": {
+                "hora": 15,
+                "minuto": 27
+            }
+        }
+    },
+    "fecha 7": {
+        "fecha": {
+            "dia": 4,
+            "mes": 12,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 16,
+                "minuto": 57
+            },
+            "hora 2": {
+                "hora": 16,
+                "minuto": 8
+            },
+            "hora 3": {
+                "hora": 1,
+                "minuto": 50
+            },
+            "hora 4": {
+                "hora": 23,
+                "minuto": 60
+            },
+            "hora 5": {
+                "hora": 2,
+                "minuto": 42
+            },
+            "hora 6": {
+                "hora": 10,
+                "minuto": 6
+            },
+            "hora 7": {
+                "hora": 9,
+                "minuto": 19
+            },
+            "hora 8": {
+                "hora": 17,
+                "minuto": 51
+            },
+            "hora 9": {
+                "hora": 2,
+                "minuto": 8
+            }
+        }
+    },
+    "fecha 8": {
+        "fecha": {
+            "dia": 16,
+            "mes": 7,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 12,
+                "minuto": 22
+            },
+            "hora 2": {
+                "hora": 10,
+                "minuto": 30
+            },
+            "hora 3": {
+                "hora": 5,
+                "minuto": 1
+            },
+            "hora 4": {
+                "hora": 3,
+                "minuto": 33
+            },
+            "hora 5": {
+                "hora": 23,
+                "minuto": 56
+            },
+            "hora 6": {
+                "hora": 13,
+                "minuto": 60
+            },
+            "hora 7": {
+                "hora": 19,
+                "minuto": 39
+            },
+            "hora 8": {
+                "hora": 6,
+                "minuto": 16
+            },
+            "hora 9": {
+                "hora": 22,
+                "minuto": 59
+            }
+        }
+    },
+    "fecha 9": {
+        "fecha": {
+            "dia": 26,
+            "mes": 9,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 9,
+                "minuto": 30
+            },
+            "hora 2": {
+                "hora": 23,
+                "minuto": 33
+            },
+            "hora 3": {
+                "hora": 19,
+                "minuto": 24
+            },
+            "hora 4": {
+                "hora": 8,
+                "minuto": 6
+            },
+            "hora 5": {
+                "hora": 8,
+                "minuto": 27
+            },
+            "hora 6": {
+                "hora": 7,
+                "minuto": 4
+            },
+            "hora 7": {
+                "hora": 1,
+                "minuto": 2
+            },
+            "hora 8": {
+                "hora": 20,
+                "minuto": 37
+            },
+            "hora 9": {
+                "hora": 18,
+                "minuto": 57
+            }
+        }
+    },
+    "fecha 10": {
+        "fecha": {
+            "dia": 1,
+            "mes": 1,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 16,
+                "minuto": 31
+            },
+            "hora 2": {
+                "hora": 13,
+                "minuto": 1
+            },
+            "hora 3": {
+                "hora": 18,
+                "minuto": 56
+            },
+            "hora 4": {
+                "hora": 16,
+                "minuto": 27
+            },
+            "hora 5": {
+                "hora": 14,
+                "minuto": 54
+            },
+            "hora 6": {
+                "hora": 9,
+                "minuto": 9
+            },
+            "hora 7": {
+                "hora": 15,
+                "minuto": 1
+            },
+            "hora 8": {
+                "hora": 19,
+                "minuto": 58
+            },
+            "hora 9": {
+                "hora": 22,
+                "minuto": 29
+            }
+        }
+    },
+    "fecha 11": {
+        "fecha": {
+            "dia": 10,
+            "mes": 2,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 12,
+                "minuto": 46
+            },
+            "hora 2": {
+                "hora": 13,
+                "minuto": 29
+            },
+            "hora 3": {
+                "hora": 19,
+                "minuto": 50
+            },
+            "hora 4": {
+                "hora": 5,
+                "minuto": 2
+            },
+            "hora 5": {
+                "hora": 10,
+                "minuto": 9
+            },
+            "hora 6": {
+                "hora": 21,
+                "minuto": 23
+            },
+            "hora 7": {
+                "hora": 1,
+                "minuto": 53
+            },
+            "hora 8": {
+                "hora": 6,
+                "minuto": 50
+            },
+            "hora 9": {
+                "hora": 20,
+                "minuto": 29
+            }
+        }
+    },
+    "fecha 12": {
+        "fecha": {
+            "dia": 13,
+            "mes": 3,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 17,
+                "minuto": 2
+            },
+            "hora 2": {
+                "hora": 21,
+                "minuto": 26
+            },
+            "hora 3": {
+                "hora": 17,
+                "minuto": 18
+            },
+            "hora 4": {
+                "hora": 17,
+                "minuto": 49
+            },
+            "hora 5": {
+                "hora": 14,
+                "minuto": 49
+            },
+            "hora 6": {
+                "hora": 14,
+                "minuto": 31
+            },
+            "hora 7": {
+                "hora": 8,
+                "minuto": 22
+            },
+            "hora 8": {
+                "hora": 22,
+                "minuto": 17
+            },
+            "hora 9": {
+                "hora": 10,
+                "minuto": 37
+            }
+        }
+    },
+    "fecha 13": {
+        "fecha": {
+            "dia": 15,
+            "mes": 12,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 19,
+                "minuto": 26
+            },
+            "hora 2": {
+                "hora": 6,
+                "minuto": 53
+            },
+            "hora 3": {
+                "hora": 11,
+                "minuto": 26
+            },
+            "hora 4": {
+                "hora": 2,
+                "minuto": 36
+            },
+            "hora 5": {
+                "hora": 12,
+                "minuto": 33
+            },
+            "hora 6": {
+                "hora": 15,
+                "minuto": 41
+            },
+            "hora 7": {
+                "hora": 21,
+                "minuto": 23
+            },
+            "hora 8": {
+                "hora": 22,
+                "minuto": 17
+            },
+            "hora 9": {
+                "hora": 3,
+                "minuto": 57
+            }
+        }
+    },
+    "fecha 14": {
+        "fecha": {
+            "dia": 14,
+            "mes": 8,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 20,
+                "minuto": 60
+            },
+            "hora 2": {
+                "hora": 21,
+                "minuto": 46
+            },
+            "hora 3": {
+                "hora": 7,
+                "minuto": 17
+            },
+            "hora 4": {
+                "hora": 12,
+                "minuto": 23
+            },
+            "hora 5": {
+                "hora": 22,
+                "minuto": 33
+            },
+            "hora 6": {
+                "hora": 16,
+                "minuto": 46
+            },
+            "hora 7": {
+                "hora": 14,
+                "minuto": 36
+            },
+            "hora 8": {
+                "hora": 8,
+                "minuto": 32
+            },
+            "hora 9": {
+                "hora": 18,
+                "minuto": 45
+            }
+        }
+    },
+    "fecha 15": {
+        "fecha": {
+            "dia": 3,
+            "mes": 7,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 23,
+                "minuto": 34
+            },
+            "hora 2": {
+                "hora": 10,
+                "minuto": 30
+            },
+            "hora 3": {
+                "hora": 22,
+                "minuto": 22
+            },
+            "hora 4": {
+                "hora": 11,
+                "minuto": 59
+            },
+            "hora 5": {
+                "hora": 2,
+                "minuto": 24
+            },
+            "hora 6": {
+                "hora": 9,
+                "minuto": 40
+            },
+            "hora 7": {
+                "hora": 11,
+                "minuto": 10
+            },
+            "hora 8": {
+                "hora": 20,
+                "minuto": 7
+            },
+            "hora 9": {
+                "hora": 2,
+                "minuto": 11
+            }
+        }
+    },
+    "fecha 16": {
+        "fecha": {
+            "dia": 8,
+            "mes": 2,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 23,
+                "minuto": 46
+            },
+            "hora 2": {
+                "hora": 9,
+                "minuto": 39
+            },
+            "hora 3": {
+                "hora": 14,
+                "minuto": 9
+            },
+            "hora 4": {
+                "hora": 2,
+                "minuto": 22
+            },
+            "hora 5": {
+                "hora": 3,
+                "minuto": 40
+            },
+            "hora 6": {
+                "hora": 11,
+                "minuto": 60
+            },
+            "hora 7": {
+                "hora": 8,
+                "minuto": 34
+            },
+            "hora 8": {
+                "hora": 7,
+                "minuto": 54
+            },
+            "hora 9": {
+                "hora": 13,
+                "minuto": 52
+            }
+        }
+    },
+    "fecha 17": {
+        "fecha": {
+            "dia": 30,
+            "mes": 4,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 21,
+                "minuto": 47
+            },
+            "hora 2": {
+                "hora": 7,
+                "minuto": 41
+            },
+            "hora 3": {
+                "hora": 7,
+                "minuto": 8
+            },
+            "hora 4": {
+                "hora": 17,
+                "minuto": 60
+            },
+            "hora 5": {
+                "hora": 6,
+                "minuto": 19
+            },
+            "hora 6": {
+                "hora": 5,
+                "minuto": 8
+            },
+            "hora 7": {
+                "hora": 24,
+                "minuto": 47
+            },
+            "hora 8": {
+                "hora": 6,
+                "minuto": 43
+            },
+            "hora 9": {
+                "hora": 13,
+                "minuto": 25
+            }
+        }
+    },
+    "fecha 18": {
+        "fecha": {
+            "dia": 22,
+            "mes": 11,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 22,
+                "minuto": 47
+            },
+            "hora 2": {
+                "hora": 20,
+                "minuto": 13
+            },
+            "hora 3": {
+                "hora": 3,
+                "minuto": 20
+            },
+            "hora 4": {
+                "hora": 17,
+                "minuto": 38
+            },
+            "hora 5": {
+                "hora": 21,
+                "minuto": 34
+            },
+            "hora 6": {
+                "hora": 4,
+                "minuto": 3
+            },
+            "hora 7": {
+                "hora": 16,
+                "minuto": 23
+            },
+            "hora 8": {
+                "hora": 8,
+                "minuto": 20
+            },
+            "hora 9": {
+                "hora": 1,
+                "minuto": 19
+            }
+        }
+    },
+    "fecha 19": {
+        "fecha": {
+            "dia": 27,
+            "mes": 11,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 7,
+                "minuto": 59
+            },
+            "hora 2": {
+                "hora": 19,
+                "minuto": 1
+            },
+            "hora 3": {
+                "hora": 21,
+                "minuto": 37
+            },
+            "hora 4": {
+                "hora": 6,
+                "minuto": 48
+            },
+            "hora 5": {
+                "hora": 4,
+                "minuto": 2
+            },
+            "hora 6": {
+                "hora": 15,
+                "minuto": 12
+            },
+            "hora 7": {
+                "hora": 24,
+                "minuto": 56
+            },
+            "hora 8": {
+                "hora": 21,
+                "minuto": 52
+            },
+            "hora 9": {
+                "hora": 19,
+                "minuto": 28
+            }
+        }
+    },
+    "fecha 20": {
+        "fecha": {
+            "dia": 2,
+            "mes": 7,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 22,
+                "minuto": 24
+            },
+            "hora 2": {
+                "hora": 16,
+                "minuto": 28
+            },
+            "hora 3": {
+                "hora": 19,
+                "minuto": 14
+            },
+            "hora 4": {
+                "hora": 1,
+                "minuto": 23
+            },
+            "hora 5": {
+                "hora": 7,
+                "minuto": 58
+            },
+            "hora 6": {
+                "hora": 17,
+                "minuto": 32
+            },
+            "hora 7": {
+                "hora": 4,
+                "minuto": 32
+            },
+            "hora 8": {
+                "hora": 15,
+                "minuto": 38
+            },
+            "hora 9": {
+                "hora": 15,
+                "minuto": 27
+            }
+        }
+    },
+    "fecha 21": {
+        "fecha": {
+            "dia": 21,
+            "mes": 7,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 12,
+                "minuto": 39
+            },
+            "hora 2": {
+                "hora": 14,
+                "minuto": 2
+            },
+            "hora 3": {
+                "hora": 1,
+                "minuto": 6
+            },
+            "hora 4": {
+                "hora": 21,
+                "minuto": 39
+            },
+            "hora 5": {
+                "hora": 16,
+                "minuto": 11
+            },
+            "hora 6": {
+                "hora": 7,
+                "minuto": 31
+            },
+            "hora 7": {
+                "hora": 3,
+                "minuto": 4
+            },
+            "hora 8": {
+                "hora": 8,
+                "minuto": 33
+            },
+            "hora 9": {
+                "hora": 14,
+                "minuto": 50
+            }
+        }
+    },
+    "fecha 22": {
+        "fecha": {
+            "dia": 6,
+            "mes": 6,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 20,
+                "minuto": 54
+            },
+            "hora 2": {
+                "hora": 5,
+                "minuto": 52
+            },
+            "hora 3": {
+                "hora": 4,
+                "minuto": 45
+            },
+            "hora 4": {
+                "hora": 19,
+                "minuto": 50
+            },
+            "hora 5": {
+                "hora": 22,
+                "minuto": 51
+            },
+            "hora 6": {
+                "hora": 14,
+                "minuto": 57
+            },
+            "hora 7": {
+                "hora": 13,
+                "minuto": 38
+            },
+            "hora 8": {
+                "hora": 21,
+                "minuto": 52
+            },
+            "hora 9": {
+                "hora": 20,
+                "minuto": 3
+            }
+        }
+    },
+    "fecha 23": {
+        "fecha": {
+            "dia": 15,
+            "mes": 12,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 9,
+                "minuto": 15
+            },
+            "hora 2": {
+                "hora": 20,
+                "minuto": 4
+            },
+            "hora 3": {
+                "hora": 20,
+                "minuto": 27
+            },
+            "hora 4": {
+                "hora": 17,
+                "minuto": 7
+            },
+            "hora 5": {
+                "hora": 2,
+                "minuto": 35
+            },
+            "hora 6": {
+                "hora": 3,
+                "minuto": 4
+            },
+            "hora 7": {
+                "hora": 8,
+                "minuto": 18
+            },
+            "hora 8": {
+                "hora": 19,
+                "minuto": 59
+            },
+            "hora 9": {
+                "hora": 1,
+                "minuto": 50
+            }
+        }
+    },
+    "fecha 24": {
+        "fecha": {
+            "dia": 27,
+            "mes": 10,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 21,
+                "minuto": 6
+            },
+            "hora 2": {
+                "hora": 19,
+                "minuto": 19
+            },
+            "hora 3": {
+                "hora": 9,
+                "minuto": 43
+            },
+            "hora 4": {
+                "hora": 1,
+                "minuto": 31
+            },
+            "hora 5": {
+                "hora": 6,
+                "minuto": 58
+            },
+            "hora 6": {
+                "hora": 6,
+                "minuto": 57
+            },
+            "hora 7": {
+                "hora": 16,
+                "minuto": 22
+            },
+            "hora 8": {
+                "hora": 8,
+                "minuto": 34
+            },
+            "hora 9": {
+                "hora": 17,
+                "minuto": 32
+            }
+        }
+    },
+    "fecha 25": {
+        "fecha": {
+            "dia": 17,
+            "mes": 7,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 2,
+                "minuto": 2
+            },
+            "hora 2": {
+                "hora": 14,
+                "minuto": 1
+            },
+            "hora 3": {
+                "hora": 14,
+                "minuto": 36
+            },
+            "hora 4": {
+                "hora": 24,
+                "minuto": 11
+            },
+            "hora 5": {
+                "hora": 1,
+                "minuto": 23
+            },
+            "hora 6": {
+                "hora": 17,
+                "minuto": 41
+            },
+            "hora 7": {
+                "hora": 17,
+                "minuto": 17
+            },
+            "hora 8": {
+                "hora": 11,
+                "minuto": 57
+            },
+            "hora 9": {
+                "hora": 2,
+                "minuto": 43
+            }
+        }
+    },
+    "fecha 26": {
+        "fecha": {
+            "dia": 21,
+            "mes": 5,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 9,
+                "minuto": 10
+            },
+            "hora 2": {
+                "hora": 16,
+                "minuto": 57
+            },
+            "hora 3": {
+                "hora": 4,
+                "minuto": 37
+            },
+            "hora 4": {
+                "hora": 18,
+                "minuto": 48
+            },
+            "hora 5": {
+                "hora": 21,
+                "minuto": 60
+            },
+            "hora 6": {
+                "hora": 3,
+                "minuto": 19
+            },
+            "hora 7": {
+                "hora": 9,
+                "minuto": 32
+            },
+            "hora 8": {
+                "hora": 9,
+                "minuto": 58
+            },
+            "hora 9": {
+                "hora": 21,
+                "minuto": 29
+            }
+        }
+    },
+    "fecha 27": {
+        "fecha": {
+            "dia": 4,
+            "mes": 9,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 10,
+                "minuto": 5
+            },
+            "hora 2": {
+                "hora": 10,
+                "minuto": 11
+            },
+            "hora 3": {
+                "hora": 7,
+                "minuto": 5
+            },
+            "hora 4": {
+                "hora": 17,
+                "minuto": 34
+            },
+            "hora 5": {
+                "hora": 24,
+                "minuto": 1
+            },
+            "hora 6": {
+                "hora": 24,
+                "minuto": 20
+            },
+            "hora 7": {
+                "hora": 5,
+                "minuto": 45
+            },
+            "hora 8": {
+                "hora": 13,
+                "minuto": 42
+            },
+            "hora 9": {
+                "hora": 17,
+                "minuto": 20
+            }
+        }
+    },
+    "fecha 28": {
+        "fecha": {
+            "dia": 19,
+            "mes": 7,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 12,
+                "minuto": 6
+            },
+            "hora 2": {
+                "hora": 4,
+                "minuto": 19
+            },
+            "hora 3": {
+                "hora": 24,
+                "minuto": 11
+            },
+            "hora 4": {
+                "hora": 8,
+                "minuto": 57
+            },
+            "hora 5": {
+                "hora": 1,
+                "minuto": 51
+            },
+            "hora 6": {
+                "hora": 3,
+                "minuto": 41
+            },
+            "hora 7": {
+                "hora": 6,
+                "minuto": 8
+            },
+            "hora 8": {
+                "hora": 16,
+                "minuto": 29
+            },
+            "hora 9": {
+                "hora": 10,
+                "minuto": 13
+            }
+        }
+    },
+    "fecha 29": {
+        "fecha": {
+            "dia": 10,
+            "mes": 8,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 1,
+                "minuto": 49
+            },
+            "hora 2": {
+                "hora": 2,
+                "minuto": 48
+            },
+            "hora 3": {
+                "hora": 6,
+                "minuto": 1
+            },
+            "hora 4": {
+                "hora": 20,
+                "minuto": 54
+            },
+            "hora 5": {
+                "hora": 20,
+                "minuto": 12
+            },
+            "hora 6": {
+                "hora": 12,
+                "minuto": 32
+            },
+            "hora 7": {
+                "hora": 15,
+                "minuto": 29
+            },
+            "hora 8": {
+                "hora": 8,
+                "minuto": 10
+            },
+            "hora 9": {
+                "hora": 14,
+                "minuto": 56
+            }
+        }
+    },
+    "fecha 30": {
+        "fecha": {
+            "dia": 23,
+            "mes": 3,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 11,
+                "minuto": 11
+            },
+            "hora 2": {
+                "hora": 13,
+                "minuto": 25
+            },
+            "hora 3": {
+                "hora": 22,
+                "minuto": 1
+            },
+            "hora 4": {
+                "hora": 14,
+                "minuto": 40
+            },
+            "hora 5": {
+                "hora": 13,
+                "minuto": 47
+            },
+            "hora 6": {
+                "hora": 18,
+                "minuto": 41
+            },
+            "hora 7": {
+                "hora": 22,
+                "minuto": 33
+            },
+            "hora 8": {
+                "hora": 20,
+                "minuto": 35
+            },
+            "hora 9": {
+                "hora": 12,
+                "minuto": 3
+            }
+        }
+    },
+    "fecha 31": {
+        "fecha": {
+            "dia": 24,
+            "mes": 8,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 13,
+                "minuto": 5
+            },
+            "hora 2": {
+                "hora": 14,
+                "minuto": 14
+            },
+            "hora 3": {
+                "hora": 1,
+                "minuto": 58
+            },
+            "hora 4": {
+                "hora": 8,
+                "minuto": 29
+            },
+            "hora 5": {
+                "hora": 1,
+                "minuto": 24
+            },
+            "hora 6": {
+                "hora": 12,
+                "minuto": 50
+            },
+            "hora 7": {
+                "hora": 11,
+                "minuto": 19
+            },
+            "hora 8": {
+                "hora": 16,
+                "minuto": 8
+            },
+            "hora 9": {
+                "hora": 21,
+                "minuto": 36
+            }
+        }
+    },
+    "fecha 32": {
+        "fecha": {
+            "dia": 30,
+            "mes": 1,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 17,
+                "minuto": 37
+            },
+            "hora 2": {
+                "hora": 21,
+                "minuto": 14
+            },
+            "hora 3": {
+                "hora": 4,
+                "minuto": 17
+            },
+            "hora 4": {
+                "hora": 24,
+                "minuto": 31
+            },
+            "hora 5": {
+                "hora": 15,
+                "minuto": 45
+            },
+            "hora 6": {
+                "hora": 14,
+                "minuto": 20
+            },
+            "hora 7": {
+                "hora": 18,
+                "minuto": 22
+            },
+            "hora 8": {
+                "hora": 15,
+                "minuto": 44
+            },
+            "hora 9": {
+                "hora": 19,
+                "minuto": 38
+            }
+        }
+    },
+    "fecha 33": {
+        "fecha": {
+            "dia": 10,
+            "mes": 3,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 23,
+                "minuto": 53
+            },
+            "hora 2": {
+                "hora": 20,
+                "minuto": 57
+            },
+            "hora 3": {
+                "hora": 11,
+                "minuto": 54
+            },
+            "hora 4": {
+                "hora": 2,
+                "minuto": 34
+            },
+            "hora 5": {
+                "hora": 1,
+                "minuto": 23
+            },
+            "hora 6": {
+                "hora": 9,
+                "minuto": 15
+            },
+            "hora 7": {
+                "hora": 19,
+                "minuto": 8
+            },
+            "hora 8": {
+                "hora": 19,
+                "minuto": 22
+            },
+            "hora 9": {
+                "hora": 21,
+                "minuto": 6
+            }
+        }
+    },
+    "fecha 34": {
+        "fecha": {
+            "dia": 26,
+            "mes": 8,
+            "a\u00f1o": 2022
+        },
+        "partidos": {
+            "hora 1": {
+                "hora": 9,
+                "minuto": 45
+            },
+            "hora 2": {
+                "hora": 23,
+                "minuto": 55
+            },
+            "hora 3": {
+                "hora": 14,
+                "minuto": 26
+            },
+            "hora 4": {
+                "hora": 14,
+                "minuto": 35
+            },
+            "hora 5": {
+                "hora": 3,
+                "minuto": 24
+            },
+            "hora 6": {
+                "hora": 16,
+                "minuto": 23
+            },
+            "hora 7": {
+                "hora": 7,
+                "minuto": 38
+            },
+            "hora 8": {
+                "hora": 16,
+                "minuto": 34
+            },
+            "hora 9": {
+                "hora": 15,
+                "minuto": 27
+            }
+        }
+    }
+}
