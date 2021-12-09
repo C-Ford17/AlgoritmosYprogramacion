@@ -8,6 +8,7 @@ from itertools import product
 class Champion:
     equipos ={}
     FechaNumero={}
+    Partidos={}
 
     def __init__(self):
         with open('equipos.json') as file1:
@@ -15,6 +16,9 @@ class Champion:
         if self.equipos:
             with open('equipos.json') as file1:
                 self.equipos=json.load(file1)
+
+            with open('equipos.json') as file2:
+                self.FechaNumero=json.load(file2)
 
             if self.FechaNumero:
                 with open('calendario.json') as file2:
@@ -40,6 +44,8 @@ class Champion:
             "continente": None,
             "puntos":0
             }}
+            with open('equipos.json') as file2:
+                self.FechaNumero=json.load(file2)
             if self.FechaNumero:
                 with open('calendario.json') as file2:
                     self.FechaNumero=json.load(file2)
@@ -90,8 +96,15 @@ class Champion:
         if f == 2:
             with open('equipos.json','w') as file:
                 json.dump(self.equipos, file, indent=4)
+        if f == 3:
+            with open('partidos.json','w') as file:
+                json.dump(self.Partidos, file, indent=4)
 
-    def registrargoles(self, equipo, goles):
+    def partido(self):
+        pass
+        self.guardarenjson(3)
+
+    def registrargoles(self, equipo,jugador,goles):
         pass
 
     def permutations(self,iterable, r=None):

@@ -44,7 +44,7 @@ while True:
     if opcion =="D":
         Copa.generarcalendario()
     if opcion == "E":
-        pass
+        Copa.partido()
     if opcion =="G":
         break
     if opcion not in ["A","B","C","D","E","F","G"]:
