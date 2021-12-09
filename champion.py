@@ -2,6 +2,9 @@ import json
 from equipo import Equipo
 from jugador import Jugador
 import random
+from itertools import product
+
+
 class Champion:
     equipos ={}
     FechaNumero={}
@@ -23,7 +26,7 @@ class Champion:
                     for i in range (9):
                         self.FechaNumero[fechas]["partidos"].update({f"hora {i+1}":{}})
         else:
-            self.equipos = {"###": {
+            self.equipos = {"equipo 0": {
             "nombre": "###",
             "pais": "###",
             "apodo": "###",
@@ -46,9 +49,6 @@ class Champion:
                 for fechas in self.FechaNumero:
                     for i in range (9):
                         self.FechaNumero[fechas]["partidos"].update({f"hora {i+1}":{}})
-        
-
-        
         
     def generarfecha(self):
         self.fecha= {"dia":random.randint(1,7),"mes":random.randint(1,3),"año":2022}
@@ -79,6 +79,7 @@ class Champion:
                 else:
                     self.FechaNumero[fechas]["partidos"][f"hora {i+1}"]["hora"]=self.FechaNumero[fechas]["partidos"][f"hora {i}"]["hora"]+2
                     self.FechaNumero[fechas]["partidos"][f"hora {i+1}"]["minuto"]=self.FechaNumero[fechas]["partidos"][f"hora 1"]["minuto"]
+        self.partidosenfechas()
         self.guardarenjson(1)
         
 
@@ -93,15 +94,37 @@ class Champion:
     def registrargoles(self, equipo, goles):
         pass
 
-    def partido(self):
-        self.goleslocal = 0
-        self.golesvisitante= 0
+    def permutations(self,iterable, r=None):
+        pool = tuple(iterable)
+        n = len(pool)
+        r = n if r is None else r
+        for indices in product(range(n), repeat=r):
+            if len(set(indices)) == r:
+                yield tuple(pool[i] for i in indices)
 
+    def partidosenfechas(self):
+        k=self.permutations(self.equipos,2)
+        m=[]
+        for permu in k:
+            m.append(permu)
+        i=0
+        for fechas in self.FechaNumero:
+            for x in range(9):
+                self.FechaNumero[fechas]["partidos"][f"hora {x+1}"]["equipo local"]=self.equipos[m[i][0]]["nombre"]
+                i+=1
+        i=0
+        for fechas in self.FechaNumero:
+            for x in range(9):
+                self.FechaNumero[fechas]["partidos"][f"hora {x+1}"]["equipo visitante"]=self.equipos[m[i][1]]["nombre"]
+                i+=1
+        self.guardarenjson(1)
 
     def agregarequipo(self):
         self.equipoContinente()
         x=0
         x2=0
+        for i in range(18):
+            self.equipos.update({f"equipos {i+1}":{}})
         for equipos in self.equipos:
             if self.equipos[equipos]["continente"]=="Europa":
                 x+=1
@@ -112,36 +135,36 @@ class Champion:
         equipoNuevo = Equipo.crearequipo()
         if equipoNuevo.pais in ["Albania","Alemania","Andorra","Armenia","Austria","Azerbaiyán","Bélgica","Bielorrusia","Bosnia y Herzegovina","Bulgaria","Chipre","Croacia","Dinamarca","Eslovaquia","Eslovenia","España","Estonia","Finlandia","Francia","Georgia","Grecia","Hungría","Inglaterra","Irlanda","Islandia","Italia","Letonia","Liechtenstein","Lituania","Luxemburgo","Macedonia del Norte","Malta","Moldavia","Mónaco","Montenegro","Noruega","Países Bajos","Polonia","Portugal","Reino Unido","República Checa","Rumania","Rusia","San Marino","Serbia","Suecia","Suiza","Ucrania","Vaticano"]:
             if x<9:
-                self.equipos.update({equipoNuevo.nombre:{}})
-                self.equipos[equipoNuevo.nombre].update({
-                "nombre":equipoNuevo.nombre,
-                "pais":equipoNuevo.pais,
-                "apodo":equipoNuevo.apodo,
-                "estadio":equipoNuevo.estadio,
-                "fechaDeFundacion":equipoNuevo.fechadefundacion,
-                "jugadores":equipoNuevo.jugadores,
-                "continente":None,
-                "puntos":equipoNuevo.puntos
-                })
-                print("equipo agregado")
+                for equipos in self.equipos:
+                    self.equipos[equipos].update({
+                    "nombre":equipoNuevo.nombre,
+                    "pais":equipoNuevo.pais,
+                    "apodo":equipoNuevo.apodo,
+                    "estadio":equipoNuevo.estadio,
+                    "fechaDeFundacion":equipoNuevo.fechadefundacion,
+                    "jugadores":equipoNuevo.jugadores,
+                    "continente":None,
+                    "puntos":equipoNuevo.puntos
+                    })
+                    print("equipo agregado")
             else:
                 print("El maximo de equipos europeos es 9")
         if equipoNuevo.pais in ["Brasil","Argentina","Colombia","Perú","Chile","Ecuador","Ecuador",
                 "Venezuela","Bolivia","Uruguay","Guyana","Surinam","Paraguay","Guyana Francesa","Aruba",
                 "Islas Malvinas","Curazao","Trinidad y Tobago","Caribe Neerlandés"]:
             if x2<9:
-                self.equipos.update({equipoNuevo.nombre:{}})
-                self.equipos[equipoNuevo.nombre].update({
-                "nombre":equipoNuevo.nombre,
-                "pais":equipoNuevo.pais,
-                "apodo":equipoNuevo.apodo,
-                "estadio":equipoNuevo.estadio,
-                "fechaDeFundacion":equipoNuevo.fechadefundacion,
-                "jugadores":equipoNuevo.jugadores,
-                "continente":None,
-                "puntos":equipoNuevo.puntos
-                })
-                print("equipo agregado")
+                for equipos in self.equipos:
+                    self.equipos[equipos].update({
+                    "nombre":equipoNuevo.nombre,
+                    "pais":equipoNuevo.pais,
+                    "apodo":equipoNuevo.apodo,
+                    "estadio":equipoNuevo.estadio,
+                    "fechaDeFundacion":equipoNuevo.fechadefundacion,
+                    "jugadores":equipoNuevo.jugadores,
+                    "continente":None,
+                    "puntos":equipoNuevo.puntos
+                    })
+                    print("equipo agregado")
             else:
                 print("El maximo de equipos suramericanos es 9")
         if equipoNuevo.pais not in ["Brasil","Argentina","Colombia","Perú","Chile","Ecuador","Ecuador",
@@ -161,7 +184,7 @@ class Champion:
             if s ==1:
                 print(equipos)
             if s==2:
-                print(equipos,":",self.equipos[equipos]["continente"])
+                print(self.equipos[equipos]["nombre"],":",self.equipos[equipos]["continente"])
 
     def eliminarequipo(self, equipo):
         for equipos in self.equipos:

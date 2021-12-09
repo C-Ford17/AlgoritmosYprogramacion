@@ -1,5 +1,5 @@
 {
-    "Barcelona": {
+    "equipo 1": {
         "nombre": "Barcelona",
         "pais": "Espa\u00f1a",
         "apodo": "Bar\u00e7a",
@@ -13,7 +13,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Manchester United": {
+    "equipo 2": {
         "nombre": "Manchester United",
         "pais": "Inglaterra",
         "apodo": "Los diablos rojos",
@@ -27,7 +27,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Paris Saint-Germain": {
+    "equipo 3": {
         "nombre": "Paris Saint-Germain",
         "pais": "Francia",
         "apodo": "PSG",
@@ -41,7 +41,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Manchester City": {
+    "equipo 4": {
         "nombre": "Manchester City",
         "pais": "Reino Unido",
         "apodo": "Ciudadanos Celestes",
@@ -55,7 +55,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Chelsea": {
+    "equipo 5": {
         "nombre": "Chelsea",
         "pais": "Reino Unido",
         "apodo": "Los azules",
@@ -69,7 +69,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Real Madrid": {
+    "equipo 6": {
         "nombre": "Real Madrid",
         "pais": "Espa\u00f1a",
         "apodo": "Blancos",
@@ -83,7 +83,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "A. C. Milan": {
+    "equipo 7": {
         "nombre": "A. C. Milan",
         "pais": "Italia",
         "apodo": "Los rojinegros",
@@ -97,7 +97,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Liverpool": {
+    "equipo 8": {
         "nombre": "Liverpool",
         "pais": "Inglaterra",
         "apodo": "Los Rojos",
@@ -111,7 +111,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Juventus": {
+    "equipo 9": {
         "nombre": "Juventus",
         "pais": "Italia",
         "apodo": "La vieja se\u00f1ora",
@@ -125,7 +125,7 @@
         "continente": "Europa",
         "puntos": 0
     },
-    "Independiente": {
+    "equipo 10": {
         "nombre": "Independiente",
         "pais": "Argentina",
         "apodo": "Rey de Copas",
@@ -139,7 +139,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "Boca Juniors": {
+    "equipo 11": {
         "nombre": "Boca Juniors",
         "pais": "Argentina",
         "apodo": "Azul y Oro",
@@ -153,7 +153,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "River Plate": {
+    "equipo 12": {
         "nombre": "River Plate",
         "pais": "Argentina",
         "apodo": "El Millonario",
@@ -167,7 +167,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "Atletico Nacional": {
+    "equipo 13": {
         "nombre": "Atletico Nacional",
         "pais": "Colombia",
         "apodo": "El Verde Paisa",
@@ -181,7 +181,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "Sao Pablo": {
+    "equipo 14": {
         "nombre": "Sao Pablo",
         "pais": "Brasil",
         "apodo": "Tricolor Paulista",
@@ -195,7 +195,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "Union Magdalena": {
+    "equipo 15": {
         "nombre": "Union Magdalena",
         "pais": "Colombia",
         "apodo": "Los Samarios",
@@ -209,7 +209,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "Olimpia": {
+    "equipo 16": {
         "nombre": "Olimpia",
         "pais": "Paraguay",
         "apodo": "Decano",
@@ -223,7 +223,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "Liga Deportiva Universitaria": {
+    "equipo 17": {
         "nombre": "Liga Deportiva Universitaria",
         "pais": "Ecuador",
         "apodo": "Azucenas",
@@ -237,7 +237,7 @@
         "continente": "Suramerica",
         "puntos": 0
     },
-    "Colo-Colo": {
+    "equipo 18": {
         "nombre": "Colo-Colo",
         "pais": "Chile",
         "apodo": "Cacique el Colo",
