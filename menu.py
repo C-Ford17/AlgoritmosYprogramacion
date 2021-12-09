@@ -47,8 +47,8 @@ while True:
         pass
     if opcion =="G":
         break
-    else:
-        print("Opcion no encontrada")
+    if opcion not in ["A","B","C","D","E","F","G"]:
+        print("opcion no encontrada")
 
 
         
