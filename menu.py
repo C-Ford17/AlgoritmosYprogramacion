@@ -40,8 +40,24 @@ while True:
         Copa.verequipos(2)
     if opcion =="D":
         Copa.generarcalendario()
-    if opcion == "E":
         Copa.partido()
+    if opcion == "E":
+        while True:
+            print("escriba la fecha del partido: ")
+            dia=int(input("dia: "))
+            mes=int(input("mes: "))
+            año=int(input("año: "))
+            fecha= {"dia":dia,"mes":mes,"año":año}
+            Copa.verequipos(fecha)
+            hora=input("ingrese la hora (hora 1, hora 2, etc): ")
+            minuto=int(input("ingrese el minuto en el que se realizo el gol: "))
+            jugador=input("seleccione el jugador que hizo el gol: ")
+            x=input("desea registrar otro gol? s/n: ")
+            Copa.registrargoles(jugador,minuto,hora,fecha)
+            if x=="s":
+                True
+            else:
+                break
     if opcion =="G":
         break
     if opcion not in ["A","B","C","D","E","F","G"]:

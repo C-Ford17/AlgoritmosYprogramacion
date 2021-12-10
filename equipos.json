@@ -20,7 +20,8 @@
                     "mes": 2,
                     "a\u00f1o": 1987
                 },
-                "puntos": 0
+                "goles": [],
+                "goles total": 0
             },
             "jugador 2": {
                 "nombre": "Jordi Alba",
@@ -32,7 +33,8 @@
                     "mes": 3,
                     "a\u00f1o": 1989
                 },
-                "puntos": 0
+                "goles": [],
+                "goles total": 0
             },
             "jugador 3": {
                 "nombre": "Ignacio Pe\u00f1a Sotorres",
@@ -44,17 +46,126 @@
                     "mes": 3,
                     "a\u00f1o": 1999
                 },
-                "puntos": 0
+                "goles": [],
+                "goles total": 0
             },
-            "jugador 4": {},
-            "jugador 5": {},
-            "jugador 6": {},
-            "jugador 7": {},
-            "jugador 8": {},
-            "jugador 9": {},
-            "jugador 10": {},
-            "jugador 11": {},
-            "jugador 12": {}
+            "jugador 4": {
+                "nombre": "Sergio Busquets",
+                "pais": "Espa\u00f1a",
+                "posicion": "CentroCampista",
+                "dorsal": 5,
+                "fechaDeNacimiento": {
+                    "dia": 16,
+                    "mes": 7,
+                    "a\u00f1o": 1988
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 5": {
+                "nombre": "Riqui Puig",
+                "pais": "Espa\u00f1a",
+                "posicion": "Centrocampista",
+                "dorsal": 17,
+                "fechaDeNacimiento": {
+                    "dia": 13,
+                    "mes": 8,
+                    "a\u00f1o": 1999
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 6": {
+                "nombre": "Ousmane Demb\u00e9l\u00e9",
+                "pais": "Francia",
+                "posicion": "Delantero",
+                "dorsal": 7,
+                "fechaDeNacimiento": {
+                    "dia": 15,
+                    "mes": 5,
+                    "a\u00f1o": 1997
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 7": {
+                "nombre": "Sergio Ag\u00fcero",
+                "pais": "Argentina",
+                "posicion": "Delantero",
+                "dorsal": 19,
+                "fechaDeNacimiento": {
+                    "dia": 2,
+                    "mes": 6,
+                    "a\u00f1o": 1988
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 8": {
+                "nombre": "Philippe Coutinho",
+                "pais": "Brasil",
+                "posicion": "Centrocampista",
+                "dorsal": 14,
+                "fechaDeNacimiento": {
+                    "dia": 12,
+                    "mes": 6,
+                    "a\u00f1o": 1992
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 9": {
+                "nombre": "Eric Garcia",
+                "pais": "Espa\u00f1a",
+                "posicion": "Defensa",
+                "dorsal": 24,
+                "fechaDeNacimiento": {
+                    "dia": 9,
+                    "mes": 1,
+                    "a\u00f1o": 2001
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 10": {
+                "nombre": "Alejandro Balde",
+                "pais": "Espa\u00f1a",
+                "posicion": "Delantero",
+                "dorsal": 31,
+                "fechaDeNacimiento": {
+                    "dia": 18,
+                    "mes": 10,
+                    "a\u00f1o": 2003
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 11": {
+                "nombre": "Frenki de Jong",
+                "pais": "Paises Bajos",
+                "posicion": "CentroCampista",
+                "dorsal": 21,
+                "fechaDeNacimiento": {
+                    "dia": 12,
+                    "mes": 5,
+                    "a\u00f1o": 1997
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 12": {
+                "nombre": "Samuel Umititi",
+                "pais": "Camerun",
+                "posicion": "Defensa",
+                "dorsal": 23,
+                "fechaDeNacimiento": {
+                    "dia": 14,
+                    "mes": 11,
+                    "a\u00f1o": 1993
+                },
+                "goles": [],
+                "goles total": 0
+            }
         },
         "continente": "Europa",
         "puntos": 0
@@ -70,18 +181,162 @@
             "a\u00f1o": 1878
         },
         "jugadores": {
-            "jugador 1": {},
-            "jugador 2": {},
-            "jugador 3": {},
-            "jugador 4": {},
-            "jugador 5": {},
-            "jugador 6": {},
-            "jugador 7": {},
-            "jugador 8": {},
-            "jugador 9": {},
-            "jugador 10": {},
-            "jugador 11": {},
-            "jugador 12": {}
+            "jugador 1": {
+                "nombre": "David de Gea",
+                "pais": "Espa\u00f1ola",
+                "posicion": "Portero",
+                "dorsal": 1,
+                "fechaDeNacimiento": {
+                    "dia": 7,
+                    "mes": 11,
+                    "a\u00f1o": 1990
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 2": {
+                "nombre": "Cristiano Ronaldo",
+                "pais": "Portugal",
+                "posicion": "Delantero",
+                "dorsal": 7,
+                "fechaDeNacimiento": {
+                    "dia": 5,
+                    "mes": 2,
+                    "a\u00f1o": 1985
+                },
+                "goles": [],
+                "goles total": 1
+            },
+            "jugador 3": {
+                "nombre": "Edinson Cavani",
+                "pais": "Uruguay",
+                "posicion": "Delantero",
+                "dorsal": 21,
+                "fechaDeNacimiento": {
+                    "dia": 14,
+                    "mes": 2,
+                    "a\u00f1o": 1987
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 4": {
+                "nombre": "Alex Telles",
+                "pais": "Brasil",
+                "posicion": "Defensa",
+                "dorsal": 27,
+                "fechaDeNacimiento": {
+                    "dia": 15,
+                    "mes": 12,
+                    "a\u00f1o": 1992
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 5": {
+                "nombre": "Teden Mengi",
+                "pais": "Inglaterra",
+                "posicion": "Defensa",
+                "dorsal": 43,
+                "fechaDeNacimiento": {
+                    "dia": 30,
+                    "mes": 4,
+                    "a\u00f1o": 2002
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 6": {
+                "nombre": "Luke Shaw",
+                "pais": "Reino Unido",
+                "posicion": "Defensa",
+                "dorsal": 23,
+                "fechaDeNacimiento": {
+                    "dia": 12,
+                    "mes": 7,
+                    "a\u00f1o": 1995
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 7": {
+                "nombre": "Bruno Fernandes",
+                "pais": "Portugal",
+                "posicion": "Centrocampista",
+                "dorsal": 18,
+                "fechaDeNacimiento": {
+                    "dia": 8,
+                    "mes": 9,
+                    "a\u00f1o": 1994
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 8": {
+                "nombre": "Jaden Sancho",
+                "pais": "Inglaterra",
+                "posicion": "Centrocampista",
+                "dorsal": 25,
+                "fechaDeNacimiento": {
+                    "dia": 25,
+                    "mes": 3,
+                    "a\u00f1o": 2000
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 9": {
+                "nombre": "Scott McTominay",
+                "pais": "Inglaterra",
+                "posicion": "Centrocampista",
+                "dorsal": 39,
+                "fechaDeNacimiento": {
+                    "dia": 8,
+                    "mes": 12,
+                    "a\u00f1o": 1996
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 10": {
+                "nombre": "Hannibal Mejbri",
+                "pais": "Francia",
+                "posicion": "Centrocampista",
+                "dorsal": 46,
+                "fechaDeNacimiento": {
+                    "dia": 23,
+                    "mes": 1,
+                    "a\u00f1o": 2003
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 11": {
+                "nombre": "Mason Greenwood",
+                "pais": "Inglaterra",
+                "posicion": "Delantero",
+                "dorsal": 11,
+                "fechaDeNacimiento": {
+                    "dia": 1,
+                    "mes": 10,
+                    "a\u00f1o": 2001
+                },
+                "goles": [],
+                "goles total": 0
+            },
+            "jugador 12": {
+                "nombre": "Phil Jones",
+                "pais": "Inglaterra",
+                "posicion": "Defensa",
+                "dorsal": 4,
+                "fechaDeNacimiento": {
+                    "dia": 21,
+                    "mes": 2,
+                    "a\u00f1o": 1992
+                },
+                "goles": [],
+                "goles total": 0
+            }
         },
         "continente": "Europa",
         "puntos": 0

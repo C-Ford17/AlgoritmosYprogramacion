@@ -26,7 +26,7 @@ class Champion:
                     pass
                 else:
                     for i in range(306):
-                        self.Partidos.update({f"partido {i+1}":{"equipo local":{"nombre":"","puntos":None,"jugadores":{}},"equipo visitante":{"nombre":"","puntos":None,"jugadores":{}}}})
+                        self.Partidos.update({f"partido {i+1}":{"equipo local":{"nombre":"","puntos":None,"jugadores":{}},"equipo visitante":{"nombre":"","puntos":None,"jugadores":{}},"equipo ganador":None,"equipo perdedor":None}})
             else:
                 for i in range(34):
                     self.FechaNumero.update({f"fecha {i+1}":{"fecha":{},"partidos":{}}})
@@ -37,7 +37,7 @@ class Champion:
             for i in range(18):
                 self.equipos.update({f"equipos {i+1}":{}})
             for i in range(306):
-                    self.Partidos.update({f"partido {i+1}":{"equipo local":{"nombre":None,"puntos":None,"jugadores":{}},"equipo visitante":{"nombre":None,"puntos":None,"jugadores":{}}}})
+                    self.Partidos.update({f"partido {i+1}":{"equipo local":{"nombre":None,"puntos":None,"jugadores":{}},"equipo visitante":{"nombre":None,"puntos":None,"jugadores":{}},"equipo ganador":None,"equipo perdedor":None}})
             for i in range(34):
                 self.FechaNumero.update({f"fecha {i+1}":{"fecha":{},"partidos":{}}})
                 for fechas in self.FechaNumero:
@@ -105,8 +105,47 @@ class Champion:
             i+=1
         self.guardarenjson(3)
 
-    def registrargoles(self,jugador,goles, minuto):
-        pass
+    def registrargoles(self,jugador, minuto,hora, fecha):
+        golesvisitante=0
+        goleslocal=0
+        for fechas in self.FechaNumero:
+            if self.FechaNumero[fechas]["fecha"]==fecha:
+                for horas in self.FechaNumero[fechas]["partidos"]:
+                    if horas==hora:
+                        for equipos in self.equipos:
+                            for jugadores in self.equipos[equipos]["jugadores"]:
+                                if self.equipos[equipos]["jugadores"][jugadores]:
+                                    if self.equipos[equipos]["jugadores"][jugadores]["nombre"]==jugador:
+                                        self.equipos[equipos]["jugadores"][jugadores]["goles total"]+=1
+                                        print("goles totales agregados")
+                                else:
+                                    pass
+                        for partidos in self.Partidos:
+                            if self.Partidos[partidos]["equipo local"]["nombre"]==self.FechaNumero[fechas]["partidos"][horas]["equipo local"] and self.Partidos[partidos]["equipo visitante"]["nombre"]==self.FechaNumero[fechas]["partidos"][horas]["equipo visitante"]:
+                                for jugadoreslocal in self.Partidos[partidos]["equipo local"]["jugadores"]:
+                                    if self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]["nombre"]==jugador:
+                                        self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]["goles"].append(minuto)
+                                        goleslocal+=len(self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]["goles"])
+                                for jugadoresvisitante in self.Partidos[partidos]["equipo visitante"]["jugadores"]:
+                                    if self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]["nombre"]==jugador:
+                                        self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]["goles"].append(minuto)
+                                        golesvisitante+=len(self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]["goles"])
+                                
+                                if goleslocal>golesvisitante:
+                                    self.Partidos[partidos]["equipo local"]["puntos"]+=3
+                                    self.Partidos[partidos]["equipo ganador"]=self.Partidos[partidos]["equipo local"]["nombre"]
+                                    self.Partidos[partidos]["equipo perdedor"]=self.Partidos[partidos]["equipo visitante"]["nombre"]
+                                if golesvisitante>goleslocal:
+                                    self.Partidos[partidos]["equipo visitante"]["puntos"]+=3
+                                    self.Partidos[partidos]["equipo ganador"]=self.Partidos[partidos]["equipo visitante"]["nombre"]
+                                    self.Partidos[partidos]["equipo perdedor"]=self.Partidos[partidos]["equipo local"]["nombre"]
+                                if goleslocal==golesvisitante:
+                                    self.Partidos[partidos]["equipo visitante"]["puntos"]+=1
+                                    self.Partidos[partidos]["equipo local"]["puntos"]+=1
+                                    self.Partidos[partidos]["equipo ganador"]="empate"
+                                    self.Partidos[partidos]["equipo perdedor"]="empate"
+        self.guardarenjson(3)
+        self.guardarenjson(2)
 
     def permutations(self,iterable, r=None):
         pool = tuple(iterable)
@@ -183,7 +222,7 @@ class Champion:
                         "fechaDeFundacion":equipoNuevo.fechadefundacion,
                         "jugadores":equipoNuevo.jugadores,
                         "continente":None,
-                        "puntos":equipoNuevo.puntos
+                        "puntos":equipoNuevo.puntos,
                         })
                         print("equipo agregado")
             else:
@@ -207,6 +246,10 @@ class Champion:
                     print(self.equipos[equipos]["nombre"])
                 if s==2:
                     print(self.equipos[equipos]["nombre"],":",self.equipos[equipos]["continente"])
+        for fechas in self.FechaNumero:
+            if self.FechaNumero[fechas]["fecha"]==s:
+                for hora in self.FechaNumero[fechas]["partidos"]:
+                    print(hora)
 
     def eliminarequipo(self, equipo):
         for equipos in self.equipos:
@@ -246,7 +289,8 @@ class Champion:
                             "posicion":jugadornuevo.posicion,
                             "dorsal":jugadornuevo.dorsal,
                             "fechaDeNacimiento":jugadornuevo.fdn,
-                            "puntos":jugadornuevo.puntos
+                            "goles":jugadornuevo.goles,
+                            "goles total":0
                         })
                         break
                     
