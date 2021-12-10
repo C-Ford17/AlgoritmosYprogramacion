@@ -15,12 +15,15 @@ class Equipo:
         self.estadio = estadio
         self.fechadefundacion = fechadefundacion
         self.puntos = 0
+        for i in range(12):
+                self.jugadores.update({f"jugador {i+1}":{}})
          
     def crearequipo():
         nombre = input("nombre del equipo: ")
         apodo= input("apodo del equipo: ")
         pais= input("pais del equipo: ")
         estadio= input("estadio del equipo: ")
+        print("fecha de fundacion: ")
         dia=int((input("dia: ")))
         mes=int((input("mes: ")))
         año=int((input("año: ")))

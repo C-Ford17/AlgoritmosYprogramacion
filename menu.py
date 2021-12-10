@@ -30,14 +30,11 @@ while True:
             Copa.verequipos(1)
             equipo=input("ingrese el nombre del equipo en el que quiera al jugador: ")
             Copa.agregarjugadoraequipo(equipo)
-            if Copa.agregarjugadoraequipo(equipo)=="Equipo no encontrado":
-                break
+            opcionB=input("desea agregar otro jugador? s/n: ")
+            if opcionB == "s":
+                True
             else:
-                opcionB=input("desea agregar otro jugador? s/n: ")
-                if opcionB == "s":
-                    True
-                else:
-                    break
+                break
     if opcion =="F":
         Copa.equipoContinente()
         Copa.verequipos(2)

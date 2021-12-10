@@ -1,4 +1,4 @@
-import random
+'''import random
 import json
 class nosexd:
     FechaNumero = {}
@@ -39,4 +39,47 @@ class nosexd:
                 json.dump(self.FechaNumero, file, indent=4)
 
 nuevo = nosexd()
-nuevo.generarcalendario()
+nuevo.generarcalendario()'''
+xdd={"jugadores":{"jugador 1":{
+                "nombre": "Jordi Alba",
+                "pais": "Espa\u00f1a",
+                "posicion": "Defensa",
+                "dorsal": 18,
+                "fechaDeNacimiento": {
+                    "dia": 21,
+                    "mes": 3,
+                    "a\u00f1o": 1989
+                },
+                "puntos": 0},
+                "jugador 2":{
+                "nombre": "Gerard pique",
+                "pais": "Espa\u00f1a",
+                "posicion": "Defensa",
+                "dorsal": 3,
+                "fechaDeNacimiento": {
+                    "dia": 2,
+                    "mes": 2,
+                    "a\u00f1o": 1987
+                },
+                "puntos": 0},
+                "jugador 3":{},
+                "jugador 4":{
+                "nombre": "manolo",
+                "pais": "Espa\u00f1a",
+                "posicion": "Defensa",
+                "dorsal": 3,
+                "fechaDeNacimiento": {
+                    "dia": 2,
+                    "mes": 2,
+                    "a\u00f1o": 1987
+                }
+                }
+                }
+                }
+for i in range(4):
+    if xdd["jugadores"][f"jugador {i+1}"]:
+        print("no vacio")
+        pass
+    else:
+        print("vacio")
+        
