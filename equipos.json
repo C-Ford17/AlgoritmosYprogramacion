@@ -10,9 +10,42 @@
             "a\u00f1o": 1899
         },
         "jugadores": {
-            "jugador 1": {},
-            "jugador 2": {},
-            "jugador 3": {},
+            "jugador 1": {
+                "nombre": "Gerard Piqu\u00e9",
+                "pais": "Espa\u00f1a",
+                "posicion": "Defensa",
+                "dorsal": 3,
+                "fechaDeNacimiento": {
+                    "dia": 2,
+                    "mes": 2,
+                    "a\u00f1o": 1987
+                },
+                "puntos": 0
+            },
+            "jugador 2": {
+                "nombre": "Jordi Alba",
+                "pais": "Espa\u00f1a",
+                "posicion": "Defensa",
+                "dorsal": 18,
+                "fechaDeNacimiento": {
+                    "dia": 21,
+                    "mes": 3,
+                    "a\u00f1o": 1989
+                },
+                "puntos": 0
+            },
+            "jugador 3": {
+                "nombre": "Ignacio Pe\u00f1a Sotorres",
+                "pais": "Espa\u00f1a",
+                "posicion": "Portero",
+                "dorsal": 13,
+                "fechaDeNacimiento": {
+                    "dia": 2,
+                    "mes": 3,
+                    "a\u00f1o": 1999
+                },
+                "puntos": 0
+            },
             "jugador 4": {},
             "jugador 5": {},
             "jugador 6": {},

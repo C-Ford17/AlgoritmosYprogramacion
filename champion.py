@@ -232,12 +232,15 @@ class Champion:
     def agregarjugadoraequipo(self, equipo):
         for equipos in self.equipos:
             if self.equipos[equipos]["nombre"]==equipo:
-                for i in range(12):
-                    if self.equipos[equipos]["jugadores"][f"jugador {i+1}"]:
-                        pass
+                for jugador in self.equipos[equipos]["jugadores"]:
+                    if self.equipos[equipos]["jugadores"][jugador]:
+                        if self.equipos[equipos]["jugadores"][jugador] ==self.equipos[equipos]["jugadores"]["jugador 12"]:
+                            return "equipo lleno"
+                        else:
+                            pass
                     else:
                         jugadornuevo = Jugador.ingresarjugador()
-                        self.equipos[equipos]["jugadores"][f"jugador {i+1}"].update({
+                        self.equipos[equipos]["jugadores"][jugador].update({
                             "nombre":jugadornuevo.nombre,
                             "pais":jugadornuevo.pais,
                             "posicion":jugadornuevo.posicion,
@@ -246,6 +249,7 @@ class Champion:
                             "puntos":jugadornuevo.puntos
                         })
                         break
+                    
         self.guardarenjson(2)
 
 
