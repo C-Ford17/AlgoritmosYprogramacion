@@ -5,6 +5,7 @@ from jugador import Jugador
 import random
 from itertools import product
 from collections import Counter
+import operator
 
 class Champion:
     equipos ={}
@@ -428,7 +429,7 @@ class Champion:
                             x+=2021-self.equipos[equipos]["jugadores"][jugadores]["fechaDeNacimiento"]["año"]
                         else:
                             x+=2020-self.equipos[equipos]["jugadores"][jugadores]["fechaDeNacimiento"]["año"]
-        return round(x/12,3)
+        return round(x/12,5)
     
     def promediogolesdelanteros(self, equipo):
         x=0
@@ -541,36 +542,69 @@ class Champion:
             empatar.append(0)
         for diferenciagol in tablalista:
             diferenciagol.append(0)
-        golesmas=0
-        golesmenos=0
+        for promedioedad in tablalista:
+            promedioedad.append(0)
+        golesmasganador=0
+        golesmasperdedor=0
+        golesmenosganador=0
+        golesmenosperdedor=0
         for i in tablalista:
             for partidos in self.Partidos:
                 if self.Partidos[partidos]["equipo ganador"]==i[0]:
                     i[2]+=1
+                    if self.Partidos[partidos]["equipo local"]["nombre"]==self.Partidos[partidos]["equipo ganador"]:
+                        for jugadoreslocal in self.Partidos[partidos]["equipo local"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]:
+                                golesmasganador+=len(self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]["goles"])
+                        i[5]+=golesmasganador
+                        for jugadoresvisitante in self.Partidos[partidos]["equipo visitante"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]:
+                                golesmenosganador+=len(self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]["goles"])
+                        i[5]-=golesmenosganador
+                    if self.Partidos[partidos]["equipo visitante"]["nombre"]==self.Partidos[partidos]["equipo ganador"]:
+                        for jugadoreslocal in self.Partidos[partidos]["equipo local"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]:
+                                golesmenosganador+=len(self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]["goles"])
+                        i[5]+=golesmasganador
+                        for jugadoresvisitante in self.Partidos[partidos]["equipo visitante"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]:
+                                golesmasganador+=len(self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]["goles"])
+                        i[5]-=golesmenosganador
+                golesmenosperdedor=0
+                golesmasperdedor=0
                 if self.Partidos[partidos]["equipo perdedor"]==i[0]:
                     i[3]+=1
+                    if self.Partidos[partidos]["equipo local"]["nombre"]==i[0]:
+                        for jugadoreslocal in self.Partidos[partidos]["equipo local"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]:
+                                golesmasperdedor+=len(self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]["goles"])
+                        i[5]+=golesmasperdedor
+                        for jugadoresvisitante in self.Partidos[partidos]["equipo visitante"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]:
+                                golesmenosperdedor+=len(self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]["goles"])
+                        i[5]-=golesmenosperdedor
+                    if self.Partidos[partidos]["equipo visitante"]["nombre"]==i[0]:
+                        for jugadoreslocal in self.Partidos[partidos]["equipo local"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]:
+                                golesmenosperdedor+=len(self.Partidos[partidos]["equipo local"]["jugadores"][jugadoreslocal]["goles"])
+                        i[5]+=golesmasperdedor
+                        for jugadoresvisitante in self.Partidos[partidos]["equipo visitante"]["jugadores"]:
+                            if self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]:
+                                golesmasperdedor+=len(self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadoresvisitante]["goles"])
+                        i[5]-=golesmenosperdedor
                 if self.Partidos[partidos]["equipo local"]["nombre"]==i[0]:
                     if self.Partidos[partidos]["equipo perdedor"]=="empate":
                         i[4]+=1
                 if self.Partidos[partidos]["equipo visitante"]["nombre"]==i[0]:
                     if self.Partidos[partidos]["equipo ganador"]=="empate":
                         i[4]+=1
-        for x in tablalista:
-            for partidos in self.Partidos:
-                if self.Partidos[partidos]["equipo local"]["nombre"]==i[0]:
-                    for jugadores in self.Partidos[partidos]["equipo local"]["jugadores"]:
-                        if self.Partidos[partidos]["equipo local"]["jugadores"][jugadores]:
-                            golesmas+=len(self.Partidos[partidos]["equipo local"]["jugadores"][jugadores]["goles"])
-                    for jugadores in self.Partidos[partidos]["equipo visitante"]["jugadores"]:
-                        if self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadores]:
-                            golesmenos+=len(self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadores]["goles"])
-                    x[5]+=(golesmas-golesmenos)
-                if self.Partidos[partidos]["equipo visitante"]["nombre"]==i[0]:
-                    for jugadores in self.Partidos[partidos]["equipo visitante"]["jugadores"]:
-                        if self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadores]:
-                            golesmas+=len(self.Partidos[partidos]["equipo visitante"]["jugadores"][jugadores]["goles"])
-                    for jugadores in self.Partidos[partidos]["equipo local"]["jugadores"]:
-                        if self.Partidos[partidos]["equipo local"]["jugadores"][jugadores]:
-                            golesmenos+=len(self.Partidos[partidos]["equipo local"]["jugadores"][jugadores]["goles"])
-                    x[5]+=(golesmas-golesmenos)
-        return tablalista
+        for j in tablalista:
+            j[6]=self.promedioedad(j[0])
+
+        tablalista.sort(key=operator.itemgetter(6),reverse=False)
+        tablalista.sort(key=operator.itemgetter(1,5,2),reverse=True)
+        print("*******************************")
+        print("Ranking","/","Nombre","/","Puntos","/","Partidos Ganados","/","Partidos Perdidos","/","Partidos Empatados")
+        for m in range(len(tablalista)):
+            print(f"rank {m+1}",":",tablalista[m][0],":",tablalista[m][1],":",tablalista[m][2],":",tablalista[m][3],":",tablalista[m][4])
+        return "*******************************"

@@ -117,7 +117,7 @@ while True:
         print(Copa.ranking())
     if opcion =="Z":
         break
-    if opcion not in ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P"]:
+    if opcion not in ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z"]:
         print("opcion no encontrada")
 
 
