@@ -3276,7 +3276,7 @@
     "partido 18": {
         "equipo local": {
             "nombre": "Manchester United",
-            "puntos": 0,
+            "puntos": 3,
             "jugadores": {
                 "jugador 1": {
                     "nombre": "David de Gea",
@@ -3301,7 +3301,9 @@
                         "mes": 2,
                         "a\u00f1o": 1985
                     },
-                    "goles": [],
+                    "goles": [
+                        78
+                    ],
                     "goles total": 0
                 },
                 "jugador 3": {
@@ -3598,8 +3600,8 @@
                 }
             }
         },
-        "equipo ganador": null,
-        "equipo perdedor": null
+        "equipo ganador": "Manchester United",
+        "equipo perdedor": "Barcelona"
     },
     "partido 19": {
         "equipo local": {

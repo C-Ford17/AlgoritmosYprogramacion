@@ -205,7 +205,7 @@
                     "a\u00f1o": 1985
                 },
                 "goles": [],
-                "goles total": 1
+                "goles total": 2
             },
             "jugador 3": {
                 "nombre": "Edinson Cavani",
@@ -339,7 +339,7 @@
             }
         },
         "continente": "Europa",
-        "puntos": 0
+        "puntos": 6
     },
     "equipo 3": {
         "nombre": "Paris Saint-Germain",

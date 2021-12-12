@@ -10,7 +10,8 @@ while True:
     print("D. Generar calendario")
     print("E. Registrar goles de partido")
     print("F. Ver Equipos con su continente")
-    print("G. Salir")
+    print("G. Cantidad de goles del campeonato")
+    print("H. Salir")
     opcion =input("Escriba una de las opciones: ")
     Copa = Champion()
     if opcion =="A":
@@ -58,9 +59,65 @@ while True:
                 True
             else:
                 break
-    if opcion =="G":
+    if opcion == "G":
+        jugador1=input("nombre del jugador: ")
+        print(Copa.cantidadgolescampeonato(jugador1))
+    if opcion == "H":
+        jugador2=input("nombre del jugador: ")
+        print(Copa.golescomolocal(jugador2))
+    if opcion == "I":
+        jugador3=input("nombre del jugador: ")
+        print(Copa.golescomovisitante(jugador3))
+    if opcion == "J":
+        jugador4=input("nombre del jugador: ")
+        print(Copa.golescontracontinente(jugador4,"Europa"))
+    if opcion == "K":
+        jugador5=input("nombre del jugador: ")
+        print(Copa.golescontracontinente(jugador5,"Suramerica"))
+    if opcion == "L":
+        jugador6=input("nombre del jugador: ")
+        print(Copa.golesportiempo(jugador6,0,45))
+    if opcion == "M":
+        jugador7=input("nombre del jugador: ")
+        print(Copa.golesportiempo(jugador7,45,90))
+    if opcion == "N":
+        equipo1=input("nombre del equipo: ")
+        print(Copa.golespromedio(equipo1))
+    if opcion == "Ñ":
+        equipo2=input("nombre del equipo: ")
+        print(Copa.cantidadresultadopartido(equipo2))
+    if opcion == "O":
+        equipo3=input("nombre del equipo: ")
+        print(Copa.equipojugadoresmasgoles(equipo3))
+    if opcion == "P":
+        equipo4=input("nombre del equipo: ")
+        print(Copa.promedioedad(equipo4))
+    if opcion== "Q":
+        equipo5=input("nombre del equipo: ")
+        print(Copa.promediogolesdelanteros(equipo5))
+    if opcion=="R":
+        equipo6=input("nombre del equipo: ")
+        print(Copa.partidosganadossegun(equipo6,"local"))
+    if opcion=="S":
+        equipo6=input("nombre del equipo: ")
+        print(Copa.partidosganadossegun(equipo6,"visitante"))
+    if opcion == "T":
+        equipo7=input("nombre del equipo: ")
+        print(Copa.verpuntos(equipo7))
+    if opcion == "U":
+        equipo8=input("nombre del equipo: ")
+        print(Copa.jugadormasjoven(equipo8))
+    if opcion == "V":
+        print(Copa.goleador())
+    if opcion == "W":
+        print(Copa.mejorsegun())
+    if opcion == "X":
+        print(Copa.promediogolespartido())
+    if opcion == "Y":
+        print(Copa.ranking())
+    if opcion =="Z":
         break
-    if opcion not in ["A","B","C","D","E","F","G"]:
+    if opcion not in ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P"]:
         print("opcion no encontrada")
 
 
