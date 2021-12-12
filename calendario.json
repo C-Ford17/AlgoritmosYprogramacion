@@ -1,62 +1,62 @@
 {
     "fecha 1": {
         "fecha": {
-            "dia": 2,
-            "mes": 3,
+            "dia": 7,
+            "mes": 2,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 3,
-                "minuto": 47,
+                "hora": 5,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Manchester United"
             },
             "hora 2": {
-                "hora": 5,
-                "minuto": 47,
+                "hora": 7,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 3": {
-                "hora": 7,
-                "minuto": 47,
+                "hora": 9,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Manchester City"
             },
             "hora 4": {
-                "hora": 9,
-                "minuto": 47,
+                "hora": 11,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Chelsea"
             },
             "hora 5": {
-                "hora": 11,
-                "minuto": 47,
+                "hora": 13,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Real Madrid"
             },
             "hora 6": {
-                "hora": 13,
-                "minuto": 47,
+                "hora": 15,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 7": {
-                "hora": 15,
-                "minuto": 47,
+                "hora": 17,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Liverpool"
             },
             "hora 8": {
-                "hora": 17,
-                "minuto": 47,
+                "hora": 19,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Juventus"
             },
             "hora 9": {
-                "hora": 19,
-                "minuto": 47,
+                "hora": 21,
+                "minuto": 2,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Independiente"
             }
@@ -64,62 +64,62 @@
     },
     "fecha 2": {
         "fecha": {
-            "dia": 9,
-            "mes": 3,
+            "dia": 14,
+            "mes": 2,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 14,
+                "hora": 4,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 14,
+                "hora": 6,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "River Plate"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 14,
+                "hora": 8,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 14,
+                "hora": 10,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 14,
+                "hora": 12,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 14,
+                "hora": 14,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Olimpia"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 14,
+                "hora": 16,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 14,
+                "hora": 18,
+                "minuto": 16,
                 "equipo local": "Barcelona",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 14,
+                "hora": 20,
+                "minuto": 16,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Barcelona"
             }
@@ -127,62 +127,62 @@
     },
     "fecha 3": {
         "fecha": {
-            "dia": 16,
-            "mes": 3,
+            "dia": 21,
+            "mes": 2,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 3,
-                "minuto": 43,
+                "hora": 4,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 2": {
-                "hora": 5,
-                "minuto": 43,
+                "hora": 6,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Manchester City"
             },
             "hora 3": {
-                "hora": 7,
-                "minuto": 43,
+                "hora": 8,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Chelsea"
             },
             "hora 4": {
-                "hora": 9,
-                "minuto": 43,
+                "hora": 10,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Real Madrid"
             },
             "hora 5": {
-                "hora": 11,
-                "minuto": 43,
+                "hora": 12,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 6": {
-                "hora": 13,
-                "minuto": 43,
+                "hora": 14,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Liverpool"
             },
             "hora 7": {
-                "hora": 15,
-                "minuto": 43,
+                "hora": 16,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Juventus"
             },
             "hora 8": {
-                "hora": 17,
-                "minuto": 43,
+                "hora": 18,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Independiente"
             },
             "hora 9": {
-                "hora": 19,
-                "minuto": 43,
+                "hora": 20,
+                "minuto": 6,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Boca Juniors"
             }
@@ -190,62 +190,62 @@
     },
     "fecha 4": {
         "fecha": {
-            "dia": 23,
-            "mes": 3,
+            "dia": 28,
+            "mes": 2,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
                 "hora": 1,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Manchester United",
                 "equipo visitante": "River Plate"
             },
             "hora 2": {
                 "hora": 3,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 3": {
                 "hora": 5,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 4": {
                 "hora": 7,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 5": {
                 "hora": 9,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Olimpia"
             },
             "hora 6": {
                 "hora": 11,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 7": {
                 "hora": 13,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Manchester United",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 8": {
                 "hora": 15,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Barcelona"
             },
             "hora 9": {
                 "hora": 17,
-                "minuto": 49,
+                "minuto": 9,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Manchester United"
             }
@@ -253,62 +253,62 @@
     },
     "fecha 5": {
         "fecha": {
-            "dia": 2,
-            "mes": 4,
+            "dia": 7,
+            "mes": 3,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 4,
-                "minuto": 33,
+                "hora": 5,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Manchester City"
             },
             "hora 2": {
-                "hora": 6,
-                "minuto": 33,
+                "hora": 7,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Chelsea"
             },
             "hora 3": {
-                "hora": 8,
-                "minuto": 33,
+                "hora": 9,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Real Madrid"
             },
             "hora 4": {
-                "hora": 10,
-                "minuto": 33,
+                "hora": 11,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 5": {
-                "hora": 12,
-                "minuto": 33,
+                "hora": 13,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Liverpool"
             },
             "hora 6": {
-                "hora": 14,
-                "minuto": 33,
+                "hora": 15,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Juventus"
             },
             "hora 7": {
-                "hora": 16,
-                "minuto": 33,
+                "hora": 17,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Independiente"
             },
             "hora 8": {
-                "hora": 18,
-                "minuto": 33,
+                "hora": 19,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 9": {
-                "hora": 20,
-                "minuto": 33,
+                "hora": 21,
+                "minuto": 46,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "River Plate"
             }
@@ -316,62 +316,62 @@
     },
     "fecha 6": {
         "fecha": {
-            "dia": 9,
-            "mes": 4,
+            "dia": 14,
+            "mes": 3,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 60,
+                "hora": 1,
+                "minuto": 36,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 60,
+                "hora": 3,
+                "minuto": 36,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 60,
+                "hora": 5,
+                "minuto": 36,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 60,
+                "hora": 7,
+                "minuto": 36,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Olimpia"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 60,
+                "hora": 9,
+                "minuto": 36,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 60,
+                "hora": 11,
+                "minuto": 36,
                 "equipo local": "Paris Saint-Germain",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 60,
+                "hora": 13,
+                "minuto": 36,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Barcelona"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 60,
+                "hora": 15,
+                "minuto": 36,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Manchester United"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 60,
+                "hora": 17,
+                "minuto": 36,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Paris Saint-Germain"
             }
@@ -379,62 +379,62 @@
     },
     "fecha 7": {
         "fecha": {
-            "dia": 16,
-            "mes": 4,
+            "dia": 21,
+            "mes": 3,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
                 "hora": 3,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Chelsea"
             },
             "hora 2": {
                 "hora": 5,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Real Madrid"
             },
             "hora 3": {
                 "hora": 7,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 4": {
                 "hora": 9,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Liverpool"
             },
             "hora 5": {
                 "hora": 11,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Juventus"
             },
             "hora 6": {
                 "hora": 13,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Independiente"
             },
             "hora 7": {
                 "hora": 15,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 8": {
                 "hora": 17,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "River Plate"
             },
             "hora 9": {
                 "hora": 19,
-                "minuto": 17,
+                "minuto": 51,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Atletico Nacional"
             }
@@ -442,62 +442,62 @@
     },
     "fecha 8": {
         "fecha": {
-            "dia": 23,
-            "mes": 4,
+            "dia": 28,
+            "mes": 3,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 6,
+                "hora": 4,
+                "minuto": 2,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 6,
+                "hora": 6,
+                "minuto": 2,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 6,
+                "hora": 8,
+                "minuto": 2,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Olimpia"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 6,
+                "hora": 10,
+                "minuto": 2,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 6,
+                "hora": 12,
+                "minuto": 2,
                 "equipo local": "Manchester City",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 6,
+                "hora": 14,
+                "minuto": 2,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Barcelona"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 6,
+                "hora": 16,
+                "minuto": 2,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Manchester United"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 6,
+                "hora": 18,
+                "minuto": 2,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 6,
+                "hora": 20,
+                "minuto": 2,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Manchester City"
             }
@@ -505,62 +505,62 @@
     },
     "fecha 9": {
         "fecha": {
-            "dia": 2,
-            "mes": 5,
+            "dia": 7,
+            "mes": 4,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 27,
+                "hora": 3,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Real Madrid"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 27,
+                "hora": 5,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 27,
+                "hora": 7,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Liverpool"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 27,
+                "hora": 9,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Juventus"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 27,
+                "hora": 11,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Independiente"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 27,
+                "hora": 13,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 27,
+                "hora": 15,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "River Plate"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 27,
+                "hora": 17,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 27,
+                "hora": 19,
+                "minuto": 10,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Sao Pablo"
             }
@@ -568,62 +568,62 @@
     },
     "fecha 10": {
         "fecha": {
-            "dia": 9,
-            "mes": 5,
+            "dia": 14,
+            "mes": 4,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 37,
+                "hora": 2,
+                "minuto": 18,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 37,
+                "hora": 4,
+                "minuto": 18,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Olimpia"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 37,
+                "hora": 6,
+                "minuto": 18,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 37,
+                "hora": 8,
+                "minuto": 18,
                 "equipo local": "Chelsea",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 37,
+                "hora": 10,
+                "minuto": 18,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Barcelona"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 37,
+                "hora": 12,
+                "minuto": 18,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Manchester United"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 37,
+                "hora": 14,
+                "minuto": 18,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 37,
+                "hora": 16,
+                "minuto": 18,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Manchester City"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 37,
+                "hora": 18,
+                "minuto": 18,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Chelsea"
             }
@@ -631,62 +631,62 @@
     },
     "fecha 11": {
         "fecha": {
-            "dia": 16,
-            "mes": 5,
+            "dia": 21,
+            "mes": 4,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 37,
+                "hora": 3,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 37,
+                "hora": 5,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Liverpool"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 37,
+                "hora": 7,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Juventus"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 37,
+                "hora": 9,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Independiente"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 37,
+                "hora": 11,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 37,
+                "hora": 13,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "River Plate"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 37,
+                "hora": 15,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 37,
+                "hora": 17,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 37,
+                "hora": 19,
+                "minuto": 49,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Union Magdalena"
             }
@@ -694,61 +694,61 @@
     },
     "fecha 12": {
         "fecha": {
-            "dia": 23,
-            "mes": 5,
+            "dia": 28,
+            "mes": 4,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
+                "hora": 3,
                 "minuto": 37,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Olimpia"
             },
             "hora 2": {
-                "hora": 4,
+                "hora": 5,
                 "minuto": 37,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 3": {
-                "hora": 6,
+                "hora": 7,
                 "minuto": 37,
                 "equipo local": "Real Madrid",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 4": {
-                "hora": 8,
+                "hora": 9,
                 "minuto": 37,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Barcelona"
             },
             "hora 5": {
-                "hora": 10,
+                "hora": 11,
                 "minuto": 37,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Manchester United"
             },
             "hora 6": {
-                "hora": 12,
+                "hora": 13,
                 "minuto": 37,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 7": {
-                "hora": 14,
+                "hora": 15,
                 "minuto": 37,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Manchester City"
             },
             "hora 8": {
-                "hora": 16,
+                "hora": 17,
                 "minuto": 37,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Chelsea"
             },
             "hora 9": {
-                "hora": 18,
+                "hora": 19,
                 "minuto": 37,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Real Madrid"
@@ -757,62 +757,62 @@
     },
     "fecha 13": {
         "fecha": {
-            "dia": 2,
-            "mes": 6,
+            "dia": 7,
+            "mes": 5,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 1,
-                "minuto": 30,
+                "hora": 2,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Liverpool"
             },
             "hora 2": {
-                "hora": 3,
-                "minuto": 30,
+                "hora": 4,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Juventus"
             },
             "hora 3": {
-                "hora": 5,
-                "minuto": 30,
+                "hora": 6,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Independiente"
             },
             "hora 4": {
-                "hora": 7,
-                "minuto": 30,
+                "hora": 8,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 5": {
-                "hora": 9,
-                "minuto": 30,
+                "hora": 10,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "River Plate"
             },
             "hora 6": {
-                "hora": 11,
-                "minuto": 30,
+                "hora": 12,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 7": {
-                "hora": 13,
-                "minuto": 30,
+                "hora": 14,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 8": {
-                "hora": 15,
-                "minuto": 30,
+                "hora": 16,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 9": {
-                "hora": 17,
-                "minuto": 30,
+                "hora": 18,
+                "minuto": 50,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Olimpia"
             }
@@ -820,62 +820,62 @@
     },
     "fecha 14": {
         "fecha": {
-            "dia": 9,
-            "mes": 6,
+            "dia": 14,
+            "mes": 5,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 9,
+                "hora": 3,
+                "minuto": 33,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 9,
+                "hora": 5,
+                "minuto": 33,
                 "equipo local": "A. C. Milan",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 9,
+                "hora": 7,
+                "minuto": 33,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Barcelona"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 9,
+                "hora": 9,
+                "minuto": 33,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Manchester United"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 9,
+                "hora": 11,
+                "minuto": 33,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 9,
+                "hora": 13,
+                "minuto": 33,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Manchester City"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 9,
+                "hora": 15,
+                "minuto": 33,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Chelsea"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 9,
+                "hora": 17,
+                "minuto": 33,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Real Madrid"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 9,
+                "hora": 19,
+                "minuto": 33,
                 "equipo local": "Liverpool",
                 "equipo visitante": "A. C. Milan"
             }
@@ -883,62 +883,62 @@
     },
     "fecha 15": {
         "fecha": {
-            "dia": 16,
-            "mes": 6,
+            "dia": 21,
+            "mes": 5,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
                 "hora": 4,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Juventus"
             },
             "hora 2": {
                 "hora": 6,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Independiente"
             },
             "hora 3": {
                 "hora": 8,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 4": {
                 "hora": 10,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "River Plate"
             },
             "hora 5": {
                 "hora": 12,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 6": {
                 "hora": 14,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 7": {
                 "hora": 16,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 8": {
                 "hora": 18,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Olimpia"
             },
             "hora 9": {
                 "hora": 20,
-                "minuto": 25,
+                "minuto": 13,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Liga Deportiva Universitaria"
             }
@@ -946,62 +946,62 @@
     },
     "fecha 16": {
         "fecha": {
-            "dia": 23,
-            "mes": 6,
+            "dia": 28,
+            "mes": 5,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 51,
+                "hora": 4,
+                "minuto": 24,
                 "equipo local": "Liverpool",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 51,
+                "hora": 6,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "Barcelona"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 51,
+                "hora": 8,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "Manchester United"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 51,
+                "hora": 10,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 51,
+                "hora": 12,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "Manchester City"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 51,
+                "hora": 14,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "Chelsea"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 51,
+                "hora": 16,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "Real Madrid"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 51,
+                "hora": 18,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 51,
+                "hora": 20,
+                "minuto": 24,
                 "equipo local": "Juventus",
                 "equipo visitante": "Liverpool"
             }
@@ -1009,62 +1009,62 @@
     },
     "fecha 17": {
         "fecha": {
-            "dia": 2,
-            "mes": 7,
+            "dia": 7,
+            "mes": 6,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 4,
-                "minuto": 58,
+                "hora": 1,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Independiente"
             },
             "hora 2": {
-                "hora": 6,
-                "minuto": 58,
+                "hora": 3,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 3": {
-                "hora": 8,
-                "minuto": 58,
+                "hora": 5,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "River Plate"
             },
             "hora 4": {
-                "hora": 10,
-                "minuto": 58,
+                "hora": 7,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 5": {
-                "hora": 12,
-                "minuto": 58,
+                "hora": 9,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 6": {
-                "hora": 14,
-                "minuto": 58,
+                "hora": 11,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 7": {
-                "hora": 16,
-                "minuto": 58,
+                "hora": 13,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Olimpia"
             },
             "hora 8": {
-                "hora": 18,
-                "minuto": 58,
+                "hora": 15,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 9": {
-                "hora": 20,
-                "minuto": 58,
+                "hora": 17,
+                "minuto": 32,
                 "equipo local": "Juventus",
                 "equipo visitante": "Colo-Colo"
             }
@@ -1072,62 +1072,62 @@
     },
     "fecha 18": {
         "fecha": {
-            "dia": 9,
-            "mes": 7,
+            "dia": 14,
+            "mes": 6,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 56,
+                "hora": 5,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Barcelona"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 56,
+                "hora": 7,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Manchester United"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 56,
+                "hora": 9,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 56,
+                "hora": 11,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Manchester City"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 56,
+                "hora": 13,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Chelsea"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 56,
+                "hora": 15,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Real Madrid"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 56,
+                "hora": 17,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 56,
+                "hora": 19,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Liverpool"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 56,
+                "hora": 21,
+                "minuto": 17,
                 "equipo local": "Independiente",
                 "equipo visitante": "Juventus"
             }
@@ -1135,62 +1135,62 @@
     },
     "fecha 19": {
         "fecha": {
-            "dia": 16,
-            "mes": 7,
+            "dia": 21,
+            "mes": 6,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 10,
+                "hora": 3,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 10,
+                "hora": 5,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "River Plate"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 10,
+                "hora": 7,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 10,
+                "hora": 9,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 10,
+                "hora": 11,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 10,
+                "hora": 13,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "Olimpia"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 10,
+                "hora": 15,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 10,
+                "hora": 17,
+                "minuto": 55,
                 "equipo local": "Independiente",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 10,
+                "hora": 19,
+                "minuto": 55,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Barcelona"
             }
@@ -1198,62 +1198,62 @@
     },
     "fecha 20": {
         "fecha": {
-            "dia": 23,
-            "mes": 7,
+            "dia": 28,
+            "mes": 6,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 57,
+                "hora": 3,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Manchester United"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 57,
+                "hora": 5,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 57,
+                "hora": 7,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Manchester City"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 57,
+                "hora": 9,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Chelsea"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 57,
+                "hora": 11,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Real Madrid"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 57,
+                "hora": 13,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 57,
+                "hora": 15,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Liverpool"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 57,
+                "hora": 17,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Juventus"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 57,
+                "hora": 19,
+                "minuto": 35,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Independiente"
             }
@@ -1261,62 +1261,62 @@
     },
     "fecha 21": {
         "fecha": {
-            "dia": 2,
-            "mes": 8,
+            "dia": 7,
+            "mes": 7,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 3,
-                "minuto": 16,
+                "hora": 5,
+                "minuto": 49,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "River Plate"
             },
             "hora 2": {
-                "hora": 5,
-                "minuto": 16,
+                "hora": 7,
+                "minuto": 49,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 3": {
-                "hora": 7,
-                "minuto": 16,
+                "hora": 9,
+                "minuto": 49,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 4": {
-                "hora": 9,
-                "minuto": 16,
+                "hora": 11,
+                "minuto": 49,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 5": {
-                "hora": 11,
-                "minuto": 16,
+                "hora": 13,
+                "minuto": 49,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Olimpia"
             },
             "hora 6": {
-                "hora": 13,
-                "minuto": 16,
+                "hora": 15,
+                "minuto": 49,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 7": {
-                "hora": 15,
-                "minuto": 16,
+                "hora": 17,
+                "minuto": 49,
                 "equipo local": "Boca Juniors",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 8": {
-                "hora": 17,
-                "minuto": 16,
+                "hora": 19,
+                "minuto": 49,
                 "equipo local": "River Plate",
                 "equipo visitante": "Barcelona"
             },
             "hora 9": {
-                "hora": 19,
-                "minuto": 16,
+                "hora": 21,
+                "minuto": 49,
                 "equipo local": "River Plate",
                 "equipo visitante": "Manchester United"
             }
@@ -1324,62 +1324,62 @@
     },
     "fecha 22": {
         "fecha": {
-            "dia": 9,
-            "mes": 8,
+            "dia": 14,
+            "mes": 7,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 44,
+                "hora": 1,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 44,
+                "hora": 3,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Manchester City"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 44,
+                "hora": 5,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Chelsea"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 44,
+                "hora": 7,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Real Madrid"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 44,
+                "hora": 9,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 44,
+                "hora": 11,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Liverpool"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 44,
+                "hora": 13,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Juventus"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 44,
+                "hora": 15,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Independiente"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 44,
+                "hora": 17,
+                "minuto": 8,
                 "equipo local": "River Plate",
                 "equipo visitante": "Boca Juniors"
             }
@@ -1387,62 +1387,62 @@
     },
     "fecha 23": {
         "fecha": {
-            "dia": 16,
-            "mes": 8,
+            "dia": 21,
+            "mes": 7,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 4,
-                "minuto": 15,
+                "hora": 3,
+                "minuto": 33,
                 "equipo local": "River Plate",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 2": {
-                "hora": 6,
-                "minuto": 15,
+                "hora": 5,
+                "minuto": 33,
                 "equipo local": "River Plate",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 3": {
-                "hora": 8,
-                "minuto": 15,
+                "hora": 7,
+                "minuto": 33,
                 "equipo local": "River Plate",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 4": {
-                "hora": 10,
-                "minuto": 15,
+                "hora": 9,
+                "minuto": 33,
                 "equipo local": "River Plate",
                 "equipo visitante": "Olimpia"
             },
             "hora 5": {
-                "hora": 12,
-                "minuto": 15,
+                "hora": 11,
+                "minuto": 33,
                 "equipo local": "River Plate",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 6": {
-                "hora": 14,
-                "minuto": 15,
+                "hora": 13,
+                "minuto": 33,
                 "equipo local": "River Plate",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 7": {
-                "hora": 16,
-                "minuto": 15,
+                "hora": 15,
+                "minuto": 33,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Barcelona"
             },
             "hora 8": {
-                "hora": 18,
-                "minuto": 15,
+                "hora": 17,
+                "minuto": 33,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Manchester United"
             },
             "hora 9": {
-                "hora": 20,
-                "minuto": 15,
+                "hora": 19,
+                "minuto": 33,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Paris Saint-Germain"
             }
@@ -1450,62 +1450,62 @@
     },
     "fecha 24": {
         "fecha": {
-            "dia": 23,
-            "mes": 8,
+            "dia": 28,
+            "mes": 7,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 3,
-                "minuto": 22,
+                "hora": 4,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Manchester City"
             },
             "hora 2": {
-                "hora": 5,
-                "minuto": 22,
+                "hora": 6,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Chelsea"
             },
             "hora 3": {
-                "hora": 7,
-                "minuto": 22,
+                "hora": 8,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Real Madrid"
             },
             "hora 4": {
-                "hora": 9,
-                "minuto": 22,
+                "hora": 10,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 5": {
-                "hora": 11,
-                "minuto": 22,
+                "hora": 12,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Liverpool"
             },
             "hora 6": {
-                "hora": 13,
-                "minuto": 22,
+                "hora": 14,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Juventus"
             },
             "hora 7": {
-                "hora": 15,
-                "minuto": 22,
+                "hora": 16,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Independiente"
             },
             "hora 8": {
-                "hora": 17,
-                "minuto": 22,
+                "hora": 18,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 9": {
-                "hora": 19,
-                "minuto": 22,
+                "hora": 20,
+                "minuto": 52,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "River Plate"
             }
@@ -1513,62 +1513,62 @@
     },
     "fecha 25": {
         "fecha": {
-            "dia": 2,
-            "mes": 9,
+            "dia": 7,
+            "mes": 8,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 43,
+                "hora": 4,
+                "minuto": 23,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 43,
+                "hora": 6,
+                "minuto": 23,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 43,
+                "hora": 8,
+                "minuto": 23,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Olimpia"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 43,
+                "hora": 10,
+                "minuto": 23,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 43,
+                "hora": 12,
+                "minuto": 23,
                 "equipo local": "Atletico Nacional",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 43,
+                "hora": 14,
+                "minuto": 23,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Barcelona"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 43,
+                "hora": 16,
+                "minuto": 23,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Manchester United"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 43,
+                "hora": 18,
+                "minuto": 23,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 43,
+                "hora": 20,
+                "minuto": 23,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Manchester City"
             }
@@ -1576,62 +1576,62 @@
     },
     "fecha 26": {
         "fecha": {
-            "dia": 9,
-            "mes": 9,
+            "dia": 14,
+            "mes": 8,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 13,
+                "hora": 4,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Chelsea"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 13,
+                "hora": 6,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Real Madrid"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 13,
+                "hora": 8,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 13,
+                "hora": 10,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Liverpool"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 13,
+                "hora": 12,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Juventus"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 13,
+                "hora": 14,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Independiente"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 13,
+                "hora": 16,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 13,
+                "hora": 18,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "River Plate"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 13,
+                "hora": 20,
+                "minuto": 3,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Atletico Nacional"
             }
@@ -1639,62 +1639,62 @@
     },
     "fecha 27": {
         "fecha": {
-            "dia": 16,
-            "mes": 9,
+            "dia": 21,
+            "mes": 8,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 42,
+                "hora": 3,
+                "minuto": 48,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 42,
+                "hora": 5,
+                "minuto": 48,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Olimpia"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 42,
+                "hora": 7,
+                "minuto": 48,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 42,
+                "hora": 9,
+                "minuto": 48,
                 "equipo local": "Sao Pablo",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 42,
+                "hora": 11,
+                "minuto": 48,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Barcelona"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 42,
+                "hora": 13,
+                "minuto": 48,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Manchester United"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 42,
+                "hora": 15,
+                "minuto": 48,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 42,
+                "hora": 17,
+                "minuto": 48,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Manchester City"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 42,
+                "hora": 19,
+                "minuto": 48,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Chelsea"
             }
@@ -1702,62 +1702,62 @@
     },
     "fecha 28": {
         "fecha": {
-            "dia": 23,
-            "mes": 9,
+            "dia": 28,
+            "mes": 8,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 1,
-                "minuto": 45,
+                "hora": 3,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Real Madrid"
             },
             "hora 2": {
-                "hora": 3,
-                "minuto": 45,
+                "hora": 5,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 3": {
-                "hora": 5,
-                "minuto": 45,
+                "hora": 7,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Liverpool"
             },
             "hora 4": {
-                "hora": 7,
-                "minuto": 45,
+                "hora": 9,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Juventus"
             },
             "hora 5": {
-                "hora": 9,
-                "minuto": 45,
+                "hora": 11,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Independiente"
             },
             "hora 6": {
-                "hora": 11,
-                "minuto": 45,
+                "hora": 13,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 7": {
-                "hora": 13,
-                "minuto": 45,
+                "hora": 15,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "River Plate"
             },
             "hora 8": {
-                "hora": 15,
-                "minuto": 45,
+                "hora": 17,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 9": {
-                "hora": 17,
-                "minuto": 45,
+                "hora": 19,
+                "minuto": 18,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Sao Pablo"
             }
@@ -1765,62 +1765,62 @@
     },
     "fecha 29": {
         "fecha": {
-            "dia": 2,
-            "mes": 10,
+            "dia": 7,
+            "mes": 9,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
                 "hora": 4,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Olimpia"
             },
             "hora 2": {
                 "hora": 6,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 3": {
                 "hora": 8,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Union Magdalena",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 4": {
                 "hora": 10,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Barcelona"
             },
             "hora 5": {
                 "hora": 12,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Manchester United"
             },
             "hora 6": {
                 "hora": 14,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 7": {
                 "hora": 16,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Manchester City"
             },
             "hora 8": {
                 "hora": 18,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Chelsea"
             },
             "hora 9": {
                 "hora": 20,
-                "minuto": 10,
+                "minuto": 19,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Real Madrid"
             }
@@ -1828,62 +1828,62 @@
     },
     "fecha 30": {
         "fecha": {
-            "dia": 9,
-            "mes": 10,
+            "dia": 14,
+            "mes": 9,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 3,
-                "minuto": 17,
+                "hora": 4,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 2": {
-                "hora": 5,
-                "minuto": 17,
+                "hora": 6,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Liverpool"
             },
             "hora 3": {
-                "hora": 7,
-                "minuto": 17,
+                "hora": 8,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Juventus"
             },
             "hora 4": {
-                "hora": 9,
-                "minuto": 17,
+                "hora": 10,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Independiente"
             },
             "hora 5": {
-                "hora": 11,
-                "minuto": 17,
+                "hora": 12,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 6": {
-                "hora": 13,
-                "minuto": 17,
+                "hora": 14,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "River Plate"
             },
             "hora 7": {
-                "hora": 15,
-                "minuto": 17,
+                "hora": 16,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 8": {
-                "hora": 17,
-                "minuto": 17,
+                "hora": 18,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 9": {
-                "hora": 19,
-                "minuto": 17,
+                "hora": 20,
+                "minuto": 27,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Union Magdalena"
             }
@@ -1891,62 +1891,62 @@
     },
     "fecha 31": {
         "fecha": {
-            "dia": 16,
-            "mes": 10,
+            "dia": 21,
+            "mes": 9,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 5,
-                "minuto": 46,
+                "hora": 3,
+                "minuto": 22,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Liga Deportiva Universitaria"
             },
             "hora 2": {
-                "hora": 7,
-                "minuto": 46,
+                "hora": 5,
+                "minuto": 22,
                 "equipo local": "Olimpia",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 3": {
-                "hora": 9,
-                "minuto": 46,
+                "hora": 7,
+                "minuto": 22,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Barcelona"
             },
             "hora 4": {
-                "hora": 11,
-                "minuto": 46,
+                "hora": 9,
+                "minuto": 22,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Manchester United"
             },
             "hora 5": {
-                "hora": 13,
-                "minuto": 46,
+                "hora": 11,
+                "minuto": 22,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 6": {
-                "hora": 15,
-                "minuto": 46,
+                "hora": 13,
+                "minuto": 22,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Manchester City"
             },
             "hora 7": {
-                "hora": 17,
-                "minuto": 46,
+                "hora": 15,
+                "minuto": 22,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Chelsea"
             },
             "hora 8": {
-                "hora": 19,
-                "minuto": 46,
+                "hora": 17,
+                "minuto": 22,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Real Madrid"
             },
             "hora 9": {
-                "hora": 21,
-                "minuto": 46,
+                "hora": 19,
+                "minuto": 22,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "A. C. Milan"
             }
@@ -1954,62 +1954,62 @@
     },
     "fecha 32": {
         "fecha": {
-            "dia": 23,
-            "mes": 10,
+            "dia": 28,
+            "mes": 9,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 3,
-                "minuto": 10,
+                "hora": 1,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Liverpool"
             },
             "hora 2": {
-                "hora": 5,
-                "minuto": 10,
+                "hora": 3,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Juventus"
             },
             "hora 3": {
-                "hora": 7,
-                "minuto": 10,
+                "hora": 5,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Independiente"
             },
             "hora 4": {
-                "hora": 9,
-                "minuto": 10,
+                "hora": 7,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 5": {
-                "hora": 11,
-                "minuto": 10,
+                "hora": 9,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "River Plate"
             },
             "hora 6": {
-                "hora": 13,
-                "minuto": 10,
+                "hora": 11,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 7": {
-                "hora": 15,
-                "minuto": 10,
+                "hora": 13,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 8": {
-                "hora": 17,
-                "minuto": 10,
+                "hora": 15,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 9": {
-                "hora": 19,
-                "minuto": 10,
+                "hora": 17,
+                "minuto": 54,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Olimpia"
             }
@@ -2017,62 +2017,62 @@
     },
     "fecha 33": {
         "fecha": {
-            "dia": 2,
-            "mes": 11,
+            "dia": 7,
+            "mes": 10,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 2,
-                "minuto": 34,
+                "hora": 1,
+                "minuto": 44,
                 "equipo local": "Liga Deportiva Universitaria",
                 "equipo visitante": "Colo-Colo"
             },
             "hora 2": {
-                "hora": 4,
-                "minuto": 34,
+                "hora": 3,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Barcelona"
             },
             "hora 3": {
-                "hora": 6,
-                "minuto": 34,
+                "hora": 5,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Manchester United"
             },
             "hora 4": {
-                "hora": 8,
-                "minuto": 34,
+                "hora": 7,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Paris Saint-Germain"
             },
             "hora 5": {
-                "hora": 10,
-                "minuto": 34,
+                "hora": 9,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Manchester City"
             },
             "hora 6": {
-                "hora": 12,
-                "minuto": 34,
+                "hora": 11,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Chelsea"
             },
             "hora 7": {
-                "hora": 14,
-                "minuto": 34,
+                "hora": 13,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Real Madrid"
             },
             "hora 8": {
-                "hora": 16,
-                "minuto": 34,
+                "hora": 15,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "A. C. Milan"
             },
             "hora 9": {
-                "hora": 18,
-                "minuto": 34,
+                "hora": 17,
+                "minuto": 44,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Liverpool"
             }
@@ -2080,62 +2080,62 @@
     },
     "fecha 34": {
         "fecha": {
-            "dia": 9,
-            "mes": 11,
+            "dia": 14,
+            "mes": 10,
             "a\u00f1o": 2022
         },
         "partidos": {
             "hora 1": {
-                "hora": 1,
-                "minuto": 9,
+                "hora": 5,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Juventus"
             },
             "hora 2": {
-                "hora": 3,
-                "minuto": 9,
+                "hora": 7,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Independiente"
             },
             "hora 3": {
-                "hora": 5,
-                "minuto": 9,
+                "hora": 9,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Boca Juniors"
             },
             "hora 4": {
-                "hora": 7,
-                "minuto": 9,
+                "hora": 11,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "River Plate"
             },
             "hora 5": {
-                "hora": 9,
-                "minuto": 9,
+                "hora": 13,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Atletico Nacional"
             },
             "hora 6": {
-                "hora": 11,
-                "minuto": 9,
+                "hora": 15,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Sao Pablo"
             },
             "hora 7": {
-                "hora": 13,
-                "minuto": 9,
+                "hora": 17,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Union Magdalena"
             },
             "hora 8": {
-                "hora": 15,
-                "minuto": 9,
+                "hora": 19,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Olimpia"
             },
             "hora 9": {
-                "hora": 17,
-                "minuto": 9,
+                "hora": 21,
+                "minuto": 58,
                 "equipo local": "Colo-Colo",
                 "equipo visitante": "Liga Deportiva Universitaria"
             }

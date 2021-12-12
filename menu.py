@@ -12,8 +12,9 @@ while True:
     print("E. Registrar goles de partido")
     print("F. Ver Estadisticas")
     print("0. Salir")
-    opcion =input("Escriba una de las opciones: ")
     Copa = Champion()
+    opcion =input("Escriba una de las opciones: ")
+    
     if opcion =="A":
         while True:
             system("cls")
@@ -25,15 +26,14 @@ while True:
                 time.sleep(1)
                 break
     if opcion =="B":
-        system("cls")
-        Copa.verequipos(1)
+        print(Copa.verequipos(s=1))
         equipoeliminar=input("ingrese el nombre del equipo que quiere eliminar: ")
         Copa.eliminarequipo(equipoeliminar)
         time.sleep(1)
     if opcion =="C":
         while True:
             system("cls")
-            Copa.verequipos(1)
+            print(Copa.verequipos(1))
             equipo=input("ingrese el nombre del equipo en el que quiera al jugador: ")
             Copa.agregarjugadoraequipo(equipo)
             opcionB=input("desea agregar otro jugador? s/n: ")
@@ -46,7 +46,7 @@ while True:
                 break
     if opcion =="D":
         system("cls")
-        Copa.generarcalendario()
+        print(Copa.generarcalendario())
         Copa.partido()
         time.sleep(1)
     if opcion == "E":
@@ -58,7 +58,7 @@ while True:
             mes=int(input("mes: "))
             año=int(input("año: "))
             fecha= {"dia":dia,"mes":mes,"año":año}
-            Copa.verequipos(fecha)
+            print(Copa.verequipos(fecha))
             hora=input("ingrese la hora (hora 1, hora 2, etc): ")
             minuto=int(input("ingrese el minuto en el que se realizo el gol: "))
             jugador=input("seleccione el jugador que hizo el gol: ")

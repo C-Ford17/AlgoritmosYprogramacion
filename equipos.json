@@ -168,7 +168,7 @@
             }
         },
         "continente": "Europa",
-        "puntos": 0
+        "puntos": 3
     },
     "equipo 2": {
         "nombre": "Manchester United",
@@ -205,7 +205,7 @@
                     "a\u00f1o": 1985
                 },
                 "goles": [],
-                "goles total": 2
+                "goles total": 0
             },
             "jugador 3": {
                 "nombre": "Edinson Cavani",
@@ -339,7 +339,7 @@
             }
         },
         "continente": "Europa",
-        "puntos": 6
+        "puntos": 9
     },
     "equipo 3": {
         "nombre": "Paris Saint-Germain",
@@ -749,7 +749,7 @@
     "equipo 18": {
         "nombre": "Colo-Colo",
         "pais": "Chile",
-        "apodo": "Cacique El Colo",
+        "apodo": "El Cacique El Colo",
         "estadio": "Monumental",
         "fechaDeFundacion": {
             "dia": 19,
@@ -757,7 +757,19 @@
             "a\u00f1o": 1925
         },
         "jugadores": {
-            "jugador 1": {},
+            "jugador 1": {
+                "nombre": "Javier Lopez",
+                "pais": "Colombia",
+                "posicion": "Delantero",
+                "dorsal": 5,
+                "fechaDeNacimiento": {
+                    "dia": 13,
+                    "mes": 5,
+                    "a\u00f1o": 1999
+                },
+                "goles": [],
+                "goles total": 0
+            },
             "jugador 2": {},
             "jugador 3": {},
             "jugador 4": {},
@@ -770,7 +782,7 @@
             "jugador 11": {},
             "jugador 12": {}
         },
-        "continente": "Suramerica",
+        "continente": null,
         "puntos": 0
     }
 }
