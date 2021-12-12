@@ -3,7 +3,7 @@ import json
 from equipo import Equipo
 from jugador import Jugador
 import random
-from itertools import product
+from itertools import count, product
 from collections import Counter
 import operator
 
@@ -76,7 +76,8 @@ class Champion:
                     self.FechaNumero[fechas]["partidos"][f"hora {i+1}"]["minuto"]=self.FechaNumero[fechas]["partidos"][f"hora 1"]["minuto"]
         self.partidosenfechas()
         self.guardarenjson(1)
-        
+        for fecha in self.FechaNumero:
+            return fecha,":",fecha["fecha"]
 
     def guardarenjson(self,f):
         if f ==1:
@@ -105,6 +106,7 @@ class Champion:
             self.Partidos[partido]["equipo visitante"]["jugadores"]=self.equipos[m[i][1]]["jugadores"]
             i+=1
         self.guardarenjson(3)
+        return f"Se han generado {len(self.Partidos)} partidos"
 
     def registrargoles(self,jugador, minuto,hora, fecha):
         golesvisitante=0
@@ -158,6 +160,7 @@ class Champion:
                                     self.Partidos[partidos]["equipo perdedor"]="empate"
         self.guardarenjson(3)
         self.guardarenjson(2)
+        return "gol registrado"
 
     def permutations(self,iterable, r=None):
         pool = tuple(iterable)
@@ -250,25 +253,26 @@ class Champion:
                 "República Checa","Rumania","Rusia","San Marino","Serbia","Suecia","Suiza","Ucrania","Vaticano"]:
                 print("El equipo no es suramericano o europeo")
         self.guardarenjson(2)
+        return "equipo agregado"
 
     def verequipos(self, s):
         for equipos in self.equipos:
             if self.equipos[equipos]:
                 if s ==1:
-                    print(self.equipos[equipos]["nombre"])
+                    return self.equipos[equipos]["nombre"]
                 if s==2:
-                    print(self.equipos[equipos]["nombre"],":",self.equipos[equipos]["continente"])
+                    return self.equipos[equipos]["nombre"],":",self.equipos[equipos]["continente"]
         for fechas in self.FechaNumero:
             if self.FechaNumero[fechas]["fecha"]==s:
                 for hora in self.FechaNumero[fechas]["partidos"]:
-                    print(hora)
+                    return hora
 
     def eliminarequipo(self, equipo):
         for equipos in self.equipos:
             if self.equipos[equipos]["nombre"] ==equipo:
                 self.equipos[equipos].clear()
-                print("se ha eliminado el equipo")
                 self.guardarenjson(2)
+                return "se ha eliminado el equipo"
 
     def equipoContinente(self):
         for equipos in self.equipos:
@@ -304,8 +308,8 @@ class Champion:
                             "goles":jugadornuevo.goles,
                             "goles total":0
                         })
+                        return "jugador agregado"
                         break
-                    
         self.guardarenjson(2)
     
     def cantidadgolescampeonato(self, jugador):
@@ -456,15 +460,19 @@ class Champion:
                 return self.equipos[equipos]["puntos"]
 
     def jugadormasjoven(self, equipo):
-        x=[]
+        x={}
         for equipos in self.equipos:
             if self.equipos[equipos]["nombre"]==equipo:
                 for jugadores in self.equipos[equipos]["jugadores"]:
                     if self.equipos[equipos]["jugadores"][jugadores]["fechaDeNacimiento"]["mes"]<12:
-                        x.append(2021-self.equipos[equipos]["jugadores"][jugadores]["fechaDeNacimiento"]["año"])
+                        x.update({self.equipos[equipos]["jugadores"][jugadores]["nombre"]:2021-self.equipos[equipos]["jugadores"][jugadores]["fechaDeNacimiento"]["año"]})
                     else:
-                        x.append(2020-self.equipos[equipos]["jugadores"][jugadores]["fechaDeNacimiento"]["año"])
-        return min(x)
+                        x.update({self.equipos[equipos]["jugadores"][jugadores]["nombre"]:2020-self.equipos[equipos]["jugadores"][jugadores]["fechaDeNacimiento"]["año"]})
+        x={k: v for k, v in sorted(x.items(), key=lambda item: item[1],reverse=False)}
+        k=x.items()
+        k=list(k)
+        print(k[0][0],":",k[0][1])
+        return "jugador mas joven"
 
     def goleador(self):
         x={}
